@@ -1,0 +1,45 @@
+﻿@model Pet_Care.Models.OrderDetail
+
+@{
+    ViewData["Title"] = "Order Detail";
+    Layout = "~/Areas/AdminQL/Views/Shared/_Admins.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-lg">
+        <div class="card-header bg-info text-white text-center">
+            <h2>Order Detail</h2>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Quantity)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Quantity)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Price)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Price)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.TotalPrice)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.TotalPrice)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Appointment)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Appointment.AppointmentId)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Order)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Order.OrderId)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Pet)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Pet.PetId)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Service)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Service.ServiceId)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Size)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Size.SizeId)</dd>
+            </dl>
+        </div>
+        <div class="card-footer text-center">
+            <a asp-action="Edit" asp-route-id="@Model?.OrderDetailId" class="btn btn-warning px-4">Edit</a>
+            <a asp-action="Index" class="btn btn-secondary px-4">Back to List</a>
+        </div>
+    </div>
+</div>

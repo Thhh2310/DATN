@@ -1,0 +1,102 @@
+﻿@using X.PagedList.Mvc.Core
+@using X.PagedList.Web.Common
+@model X.PagedList.IPagedList<Pet_Care.Models.Order>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/AdminQL/Views/Shared/_Admins.cshtml";
+}
+
+<h1 class="text-center text-primary my-4">Đơn hàng</h1>
+
+<div class="row">
+    <form action="" method="post" class="form-inline d-flex justify-content-between">
+        <div class="form-group">
+            <label class="sr-only" for="keyword">Tìm theo tên loại</label>
+            <input class="form-control" name="account" id="keyword" placeholder="Nhập tên cần tìm" />
+            <button type="submit" class="btn btn-default ml-1"><i class="fas fa-search"></i></button>
+        </div>
+        <a asp-action="Create" class="btn btn-primary"><i fas fa-plus></i>Thêm mới</a>
+    </form>
+    <table class="table table-hover mt-3">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstOrDefault().OrderDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstOrDefault().Status)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstOrDefault().TotalAmount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstOrDefault().Notes)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstOrDefault().Customer)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstOrDefault().PaymentMethod)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstOrDefault().Staff)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OrderDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TotalAmount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Notes)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Customer.CustomerId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PaymentMethod.PaymentMethodId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Staff.StaffId)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.OrderId" class="btn btn-warning btn-sm">Sửa</a>
+                        <a asp-action="Details" asp-route-id="@item.OrderId" class="btn btn-info btn-sm">Chi tiết</a>
+                        <a asp-action="Delete" asp-route-id="@item.OrderId" class="btn btn-danger btn-sm" onclick="return confirmDelete(@item.OrderId);">Xoá</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="d-flex justify-content-center mt-4">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }), new PagedListRenderOptions
+   {
+       LiElementClasses = new string[] { "page-item" },
+       PageClasses = new string[] { "page-link" }
+   })
+    </div>
+</div>
+
+<script>
+    function confirmDelete(id) {
+        if (confirm('Bạn có chắc chắn muốn xóa?')) {
+            // Nếu nhấn OK, thực hiện xóa
+            window.location.href = '/OrdersController/Delete/' + id;
+            return true; // Cho phép thực hiện hành động
+        } else {
+            return false; // Không thực hiện hành động
+        }
+    }
+</script>

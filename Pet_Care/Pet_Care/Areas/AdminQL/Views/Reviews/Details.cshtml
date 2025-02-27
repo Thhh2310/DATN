@@ -1,0 +1,33 @@
+﻿@model Pet_Care.Models.Review
+
+@{
+    ViewData["Title"] = "Review Details";
+    Layout = "~/Areas/AdminQL/Views/Shared/_Admins.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-lg">
+        <div class="card-header bg-info text-white text-center">
+            <h2>Review Details</h2>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Comment)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Comment)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.ReviewDate)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.ReviewDate)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Customer)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Customer.CustomerId)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Service)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Service.ServiceId)</dd>
+            </dl>
+        </div>
+        <div class="card-footer text-center">
+            <a asp-action="Edit" asp-route-id="@Model?.ReviewId" class="btn btn-warning px-4">Edit</a>
+            <a asp-action="Index" class="btn btn-secondary px-4">Back to List</a>
+        </div>
+    </div>
+</div>

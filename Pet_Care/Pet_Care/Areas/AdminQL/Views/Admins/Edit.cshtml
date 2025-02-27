@@ -1,0 +1,52 @@
+﻿@model Pet_Care.Models.Admin
+
+@{
+    ViewData["Title"] = "Edit Admin";
+    Layout = "~/Areas/AdminQL/Views/Shared/_Admins.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>Edit Admin</h2>
+        </div>
+        <div class="card-body">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                <input type="hidden" asp-for="AdminId" />
+
+                <div class="mb-3">
+                    <label asp-for="AdminName" class="form-label fw-bold"></label>
+                    <input asp-for="AdminName" class="form-control" placeholder="Enter admin name" />
+                    <span asp-validation-for="AdminName" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label fw-bold"></label>
+                    <input asp-for="Email" class="form-control" placeholder="Enter email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                
+                <div class="mb-3">
+                    <label asp-for="Password" class="form-label fw-bold"></label>
+                    <input asp-for="Password" class="form-control" placeholder="Enter password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Avatar" class="form-label fw-bold"></label>
+                    <div class="d-flex align-items-end">
+                        <img src="@Model.Avatar" alt="Avatar Image" class="img-thumbnail me-2" style="max-width: 100px; max-height: 100px;" />
+                        <input asp-for="Avatar" class="form-control w-80" type="file" />
+                    </div>
+                    <span asp-validation-for="Avatar" class="text-danger"></span>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success px-4">Save</button>
+                    <a asp-action="Index" class="btn btn-secondary px-4">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

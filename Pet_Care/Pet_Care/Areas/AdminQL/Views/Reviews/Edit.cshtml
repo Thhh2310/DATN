@@ -1,0 +1,49 @@
+﻿@model Pet_Care.Models.Review
+
+@{
+    ViewData["Title"] = "Edit Review";
+    Layout = "~/Areas/AdminQL/Views/Shared/_Admins.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>Edit Review</h2>
+        </div>
+        <div class="card-body">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                <input type="hidden" asp-for="ReviewId" />
+
+                <div class="mb-3">
+                    <label asp-for="CustomerId" class="form-label fw-bold"></label>
+                    <select asp-for="CustomerId" class="form-control" asp-items="ViewBag.CustomerId"></select>
+                    <span asp-validation-for="CustomerId" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ServiceId" class="form-label fw-bold"></label>
+                    <select asp-for="ServiceId" class="form-control" asp-items="ViewBag.ServiceId"></select>
+                    <span asp-validation-for="ServiceId" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Comment" class="form-label fw-bold"></label>
+                    <input asp-for="Comment" class="form-control" placeholder="Enter comment" />
+                    <span asp-validation-for="Comment" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ReviewDate" class="form-label fw-bold"></label>
+                    <input asp-for="ReviewDate" class="form-control" placeholder="Enter review date" />
+                    <span asp-validation-for="ReviewDate" class="text-danger"></span>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success px-4">Save</button>
+                    <a asp-action="Index" class="btn btn-secondary px-4">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
