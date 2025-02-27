@@ -50,7 +50,6 @@ namespace Pet_Care.Areas.AdminQL.Controllers
                 .Include(o => o.Order)
                 .Include(o => o.Pet)
                 .Include(o => o.Service)
-                .Include(o => o.Size)
                 .FirstOrDefaultAsync(m => m.OrderDetailId == id);
             if (orderDetail == null)
             {
@@ -67,7 +66,6 @@ namespace Pet_Care.Areas.AdminQL.Controllers
             ViewData["OrderId"] = new SelectList(_context.Orders, "OrderId", "OrderId");
             ViewData["PetId"] = new SelectList(_context.Pets, "PetId", "PetId");
             ViewData["ServiceId"] = new SelectList(_context.Services, "ServiceId", "ServiceId");
-            ViewData["SizeId"] = new SelectList(_context.Sizes, "SizeId", "SizeId");
             return View();
         }
 
@@ -88,7 +86,6 @@ namespace Pet_Care.Areas.AdminQL.Controllers
             ViewData["OrderId"] = new SelectList(_context.Orders, "OrderId", "OrderId", orderDetail.OrderId);
             ViewData["PetId"] = new SelectList(_context.Pets, "PetId", "PetId", orderDetail.PetId);
             ViewData["ServiceId"] = new SelectList(_context.Services, "ServiceId", "ServiceId", orderDetail.ServiceId);
-            ViewData["SizeId"] = new SelectList(_context.Sizes, "SizeId", "SizeId", orderDetail.SizeId);
             return View(orderDetail);
         }
 
@@ -109,7 +106,6 @@ namespace Pet_Care.Areas.AdminQL.Controllers
             ViewData["OrderId"] = new SelectList(_context.Orders, "OrderId", "OrderId", orderDetail.OrderId);
             ViewData["PetId"] = new SelectList(_context.Pets, "PetId", "PetId", orderDetail.PetId);
             ViewData["ServiceId"] = new SelectList(_context.Services, "ServiceId", "ServiceId", orderDetail.ServiceId);
-            ViewData["SizeId"] = new SelectList(_context.Sizes, "SizeId", "SizeId", orderDetail.SizeId);
             return View(orderDetail);
         }
 
@@ -149,7 +145,6 @@ namespace Pet_Care.Areas.AdminQL.Controllers
             ViewData["OrderId"] = new SelectList(_context.Orders, "OrderId", "OrderId", orderDetail.OrderId);
             ViewData["PetId"] = new SelectList(_context.Pets, "PetId", "PetId", orderDetail.PetId);
             ViewData["ServiceId"] = new SelectList(_context.Services, "ServiceId", "ServiceId", orderDetail.ServiceId);
-            ViewData["SizeId"] = new SelectList(_context.Sizes, "SizeId", "SizeId", orderDetail.SizeId);
             return View(orderDetail);
         }
 

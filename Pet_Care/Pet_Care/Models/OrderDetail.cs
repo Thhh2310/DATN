@@ -15,8 +15,6 @@ public partial class OrderDetail
 
     public int? AppointmentId { get; set; }
 
-    public int? SizeId { get; set; }
-
     public int? Quantity { get; set; }
 
     public double Price { get; set; }
@@ -30,6 +28,4 @@ public partial class OrderDetail
     public virtual Pet? Pet { get; set; }
 
     public virtual Service? Service { get; set; }
-
-    public virtual Size? Size { get; set; }
 }

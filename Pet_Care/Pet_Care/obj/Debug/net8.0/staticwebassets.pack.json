@@ -1,1787 +1,1787 @@
 {
   "Files": [
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Pet_Care.bundle.scp.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Pet_Care.bundle.scp.css",
       "PackagePath": "staticwebassets\\Pet_Care.bundle.scp.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\css\\site.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\css\\style.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\adminlte.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\adminlte.css",
       "PackagePath": "staticwebassets\\dist\\css\\adminlte.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\adminlte.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\adminlte.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\adminlte.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\adminlte.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\adminlte.min.css",
       "PackagePath": "staticwebassets\\dist\\css\\adminlte.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\adminlte.min.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\adminlte.min.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\adminlte.min.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.components.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.components.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.components.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.components.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.components.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.components.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.components.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.components.min.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.components.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.components.min.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.components.min.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.components.min.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.core.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.core.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.core.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.core.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.core.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.core.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.core.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.core.min.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.core.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.core.min.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.core.min.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.core.min.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.extra-components.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.extra-components.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.min.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.extra-components.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.min.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.min.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.extra-components.min.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.light.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.light.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.light.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.light.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.light.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.light.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.light.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.light.min.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.light.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.light.min.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.light.min.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.light.min.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.pages.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.pages.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.pages.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.pages.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.pages.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.pages.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.pages.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.pages.min.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.pages.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.pages.min.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.pages.min.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.pages.min.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.plugins.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.plugins.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.plugins.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.plugins.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.plugins.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.plugins.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.plugins.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.plugins.min.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.plugins.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.plugins.min.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\css\\alt\\adminlte.plugins.min.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.plugins.min.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\AdminLTELogo.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\AdminLTELogo.png",
       "PackagePath": "staticwebassets\\dist\\img\\AdminLTELogo.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\avatar.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\avatar.png",
       "PackagePath": "staticwebassets\\dist\\img\\avatar.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\avatar2.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\avatar2.png",
       "PackagePath": "staticwebassets\\dist\\img\\avatar2.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\avatar3.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\avatar3.png",
       "PackagePath": "staticwebassets\\dist\\img\\avatar3.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\avatar4.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\avatar4.png",
       "PackagePath": "staticwebassets\\dist\\img\\avatar4.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\avatar5.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\avatar5.png",
       "PackagePath": "staticwebassets\\dist\\img\\avatar5.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\boxed-bg.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\boxed-bg.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\boxed-bg.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\boxed-bg.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\boxed-bg.png",
       "PackagePath": "staticwebassets\\dist\\img\\boxed-bg.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\credit\\american-express.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\credit\\american-express.png",
       "PackagePath": "staticwebassets\\dist\\img\\credit\\american-express.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\credit\\cirrus.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\credit\\cirrus.png",
       "PackagePath": "staticwebassets\\dist\\img\\credit\\cirrus.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\credit\\mastercard.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\credit\\mastercard.png",
       "PackagePath": "staticwebassets\\dist\\img\\credit\\mastercard.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\credit\\paypal.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\credit\\paypal.png",
       "PackagePath": "staticwebassets\\dist\\img\\credit\\paypal.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\credit\\paypal2.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\credit\\paypal2.png",
       "PackagePath": "staticwebassets\\dist\\img\\credit\\paypal2.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\credit\\visa.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\credit\\visa.png",
       "PackagePath": "staticwebassets\\dist\\img\\credit\\visa.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\default-150x150.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\default-150x150.png",
       "PackagePath": "staticwebassets\\dist\\img\\default-150x150.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\icons.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\icons.png",
       "PackagePath": "staticwebassets\\dist\\img\\icons.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\logo.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\logo.png",
       "PackagePath": "staticwebassets\\dist\\img\\logo.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\logo1.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\logo1.png",
       "PackagePath": "staticwebassets\\dist\\img\\logo1.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\logo_DevXuongMoc.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\logo_DevXuongMoc.png",
       "PackagePath": "staticwebassets\\dist\\img\\logo_DevXuongMoc.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\logologin.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\logologin.png",
       "PackagePath": "staticwebassets\\dist\\img\\logologin.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\nth.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\nth.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\nth.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\photo1.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\photo1.png",
       "PackagePath": "staticwebassets\\dist\\img\\photo1.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\photo2.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\photo2.png",
       "PackagePath": "staticwebassets\\dist\\img\\photo2.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\photo3.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\photo3.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\photo3.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\photo4.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\photo4.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\photo4.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\prod-1.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\prod-1.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\prod-1.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\prod-2.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\prod-2.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\prod-2.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\prod-3.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\prod-3.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\prod-3.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\prod-4.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\prod-4.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\prod-4.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\prod-5.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\prod-5.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\prod-5.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\user1-128x128.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\user1-128x128.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\user1-128x128.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\user2-160x160.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\user2-160x160.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\user2-160x160.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\user3-128x128.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\user3-128x128.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\user3-128x128.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\user4-128x128.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\user4-128x128.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\user4-128x128.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\user5-128x128.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\user5-128x128.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\user5-128x128.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\user6-128x128.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\user6-128x128.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\user6-128x128.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\user7-128x128.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\user7-128x128.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\user7-128x128.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\user8-128x128.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\img\\user8-128x128.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\user8-128x128.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\js\\.eslintrc.json",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\js\\.eslintrc.json",
       "PackagePath": "staticwebassets\\dist\\js\\.eslintrc.json"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\js\\adminlte.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\js\\adminlte.js",
       "PackagePath": "staticwebassets\\dist\\js\\adminlte.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\js\\adminlte.js.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\js\\adminlte.js.map",
       "PackagePath": "staticwebassets\\dist\\js\\adminlte.js.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\js\\adminlte.min.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\js\\adminlte.min.js",
       "PackagePath": "staticwebassets\\dist\\js\\adminlte.min.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\js\\adminlte.min.js.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\js\\adminlte.min.js.map",
       "PackagePath": "staticwebassets\\dist\\js\\adminlte.min.js.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\js\\demo.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\js\\demo.js",
       "PackagePath": "staticwebassets\\dist\\js\\demo.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\js\\pages\\dashboard.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\js\\pages\\dashboard.js",
       "PackagePath": "staticwebassets\\dist\\js\\pages\\dashboard.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\js\\pages\\dashboard2.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\js\\pages\\dashboard2.js",
       "PackagePath": "staticwebassets\\dist\\js\\pages\\dashboard2.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\dist\\js\\pages\\dashboard3.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\dist\\js\\pages\\dashboard3.js",
       "PackagePath": "staticwebassets\\dist\\js\\pages\\dashboard3.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\favicon.ico",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\fonts\\Gotham-Medium.otf",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\fonts\\Gotham-Medium.otf",
       "PackagePath": "staticwebassets\\fonts\\Gotham-Medium.otf"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\fonts\\Gotham-Thin.otf",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\fonts\\Gotham-Thin.otf",
       "PackagePath": "staticwebassets\\fonts\\Gotham-Thin.otf"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\fonts\\Gotham-Ultra.otf",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\fonts\\Gotham-Ultra.otf",
       "PackagePath": "staticwebassets\\fonts\\Gotham-Ultra.otf"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\admin\\avatar.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\admin\\avatar.png",
       "PackagePath": "staticwebassets\\images\\admin\\avatar.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\admin\\avatar2.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\admin\\avatar2.png",
       "PackagePath": "staticwebassets\\images\\admin\\avatar2.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\admin\\avatar3.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\admin\\avatar3.png",
       "PackagePath": "staticwebassets\\images\\admin\\avatar3.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\admin\\avatar4.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\admin\\avatar4.png",
       "PackagePath": "staticwebassets\\images\\admin\\avatar4.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\admin\\avatar5.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\admin\\avatar5.png",
       "PackagePath": "staticwebassets\\images\\admin\\avatar5.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\admin\\bhh.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\admin\\bhh.jpg",
       "PackagePath": "staticwebassets\\images\\admin\\bhh.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\admin\\hwh.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\admin\\hwh.jpg",
       "PackagePath": "staticwebassets\\images\\admin\\hwh.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\admin\\nth.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\admin\\nth.jpg",
       "PackagePath": "staticwebassets\\images\\admin\\nth.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\admin\\v.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\admin\\v.jpg",
       "PackagePath": "staticwebassets\\images\\admin\\v.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\DOITAC.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\DOITAC.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\DOITAC.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\GIOITHIEU.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\GIOITHIEU.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\GIOITHIEU.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\LIENHE.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\LIENHE.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\LIENHE.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\anh-nen-canh-dong-xanh-la.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\anh-nen-canh-dong-xanh-la.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\anh-nen-canh-dong-xanh-la.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner.html",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner.html",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner.html"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\01.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\01.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\01.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\02.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\02.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\02.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\05.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\05.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\05.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\06.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\06.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\06.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\all.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\all.min.css",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\all.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\bao-hanh.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\bao-hanh.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\bao-hanh.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\bootstrap.bundle.min.js.download",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\bootstrap.bundle.min.js.download",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\bootstrap.bundle.min.js.download"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\bootstrap.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\chat-luong.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\chat-luong.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\chat-luong.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\chatluong.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\chatluong.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\chatluong.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\chinh-sach.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\chinh-sach.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\chinh-sach.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\ghe.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\ghe.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\ghe.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon-cau-thang.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon-cau-thang.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\icon-cau-thang.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon-do-trang-tri.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon-do-trang-tri.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\icon-do-trang-tri.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon-phong-bep.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon-phong-bep.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\icon-phong-bep.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon-phong-khach.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon-phong-khach.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\icon-phong-khach.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon-phong-ngu.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon-phong-ngu.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\icon-phong-ngu.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon-phong-tam.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon-phong-tam.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\icon-phong-tam.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon-tre-em.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon-tre-em.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\icon-tre-em.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon-van-phong.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon-van-phong.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\icon-van-phong.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon_email_pro.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon_email_pro.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\icon_email_pro.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon_fb_pro.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon_fb_pro.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\icon_fb_pro.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon_zalo_pro.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\icon_zalo_pro.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\icon_zalo_pro.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\jquery.slim.min.js.download",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\jquery.slim.min.js.download",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\jquery.slim.min.js.download"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\logo.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\logo.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\logo.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\main.1c2a357f.js.download",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\main.1c2a357f.js.download",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\main.1c2a357f.js.download"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\main.a567d279.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\main.a567d279.css",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\main.a567d279.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\marvella.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\marvella.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\marvella.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\melissa.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\melissa.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\melissa.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\muong-thanh.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\muong-thanh.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\muong-thanh.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\san-pham.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\san-pham.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\san-pham.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\sheraton.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\sheraton.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\sheraton.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\slick-theme.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\slick-theme.css",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\slick-theme.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\slick.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\slick.css",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\slick.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\style.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\style.css",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\style.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\sunrise-sapa.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\sunrise-sapa.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\sunrise-sapa.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\the-coffee-house.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\the-coffee-house.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\the-coffee-house.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\uicons-bold-straight.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\uicons-bold-straight.css",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\uicons-bold-straight.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\ve-chung-toi-1.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\ve-chung-toi-1.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\ve-chung-toi-1.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\ve-chung-toi-2.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\ve-chung-toi-2.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\ve-chung-toi-2.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\ve-chung-toi-3.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\ve-chung-toi-3.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\ve-chung-toi-3.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\ve-chung-toi-4.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\ve-chung-toi-4.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\ve-chung-toi-4.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\ve-chung-toi.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\ve-chung-toi.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\ve-chung-toi.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\vinpearl.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\banner_files\\vinpearl.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\banner_files\\vinpearl.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\bao-hanh.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\bao-hanh.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\bao-hanh.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\bg-about-us.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\bg-about-us.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\bg-about-us.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\bgr.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\bgr.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\bgr.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\chat-luong.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\chat-luong.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\chat-luong.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\chatluong.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\chatluong.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\chatluong.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\chinh-sach.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\chinh-sach.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\chinh-sach.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\ghe.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\ghe.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\ghe.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon-cau-thang.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon-cau-thang.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\icon-cau-thang.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon-do-trang-tri.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon-do-trang-tri.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\icon-do-trang-tri.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon-phong-bep.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon-phong-bep.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\icon-phong-bep.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon-phong-khach.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon-phong-khach.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\icon-phong-khach.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon-phong-ngu.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon-phong-ngu.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\icon-phong-ngu.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon-phong-tam.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon-phong-tam.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\icon-phong-tam.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon-tre-em.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon-tre-em.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\icon-tre-em.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon-van-phong.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon-van-phong.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\icon-van-phong.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon_email_pro.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon_email_pro.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\icon_email_pro.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon_fb_pro.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon_fb_pro.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\icon_fb_pro.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon_zalo_pro.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\icon_zalo_pro.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\icon_zalo_pro.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\lienhe-bg.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\lienhe-bg.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\lienhe-bg.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\logo.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\logo.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\logo.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\logo3.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\logo3.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\logo3.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\marvella.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\marvella.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\marvella.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\melissa.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\melissa.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\melissa.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\muong-thanh.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\muong-thanh.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\muong-thanh.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\san-pham.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\san-pham.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\san-pham.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\sheraton.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\sheraton.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\sheraton.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\sp2.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\sp2.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\sp2.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\su-menh1.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\su-menh1.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\su-menh1.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\su-menh2.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\su-menh2.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\su-menh2.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\su-menh3.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\su-menh3.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\su-menh3.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\su-menh4.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\su-menh4.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\su-menh4.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\sunrise-sapa.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\sunrise-sapa.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\sunrise-sapa.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\tamnhin.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\tamnhin.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\tamnhin.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\thanhlap.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\thanhlap.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\thanhlap.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\the-coffee-house.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\the-coffee-house.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\the-coffee-house.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\tintuc-1.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\tintuc-1.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\tintuc-1.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\tintuc-2.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\tintuc-2.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\tintuc-2.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\tintuc-3.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\tintuc-3.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\tintuc-3.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\tintuc-4.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\tintuc-4.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\tintuc-4.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\tintuc-5.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\tintuc-5.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\tintuc-5.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\tintuc-6.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\tintuc-6.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\tintuc-6.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\trai-nghiem1.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\trai-nghiem1.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\trai-nghiem1.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\ve-chung-toi-1.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\ve-chung-toi-1.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\ve-chung-toi-1.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\ve-chung-toi-2.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\ve-chung-toi-2.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\ve-chung-toi-2.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\ve-chung-toi-3.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\ve-chung-toi-3.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\ve-chung-toi-3.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\ve-chung-toi-4.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\ve-chung-toi-4.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\ve-chung-toi-4.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\ve-chung-toi.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\ve-chung-toi.jpg",
       "PackagePath": "staticwebassets\\images\\anhcat\\ve-chung-toi.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\vinpearl.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\anhcat\\vinpearl.png",
       "PackagePath": "staticwebassets\\images\\anhcat\\vinpearl.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\banners\\11.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\banners\\11.jpg",
       "PackagePath": "staticwebassets\\images\\banners\\11.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\banners\\12.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\banners\\12.jpg",
       "PackagePath": "staticwebassets\\images\\banners\\12.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\banners\\13.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\banners\\13.jpg",
       "PackagePath": "staticwebassets\\images\\banners\\13.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\banners\\14.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\banners\\14.jpg",
       "PackagePath": "staticwebassets\\images\\banners\\14.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\banners\\15.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\banners\\15.jpg",
       "PackagePath": "staticwebassets\\images\\banners\\15.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\banners\\16.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\banners\\16.jpg",
       "PackagePath": "staticwebassets\\images\\banners\\16.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\banners\\17.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\banners\\17.jpg",
       "PackagePath": "staticwebassets\\images\\banners\\17.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\danh-muc\\icon-cau-thang.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\danh-muc\\icon-cau-thang.png",
       "PackagePath": "staticwebassets\\images\\danh-muc\\icon-cau-thang.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\danh-muc\\icon-do-trang-tri.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\danh-muc\\icon-do-trang-tri.png",
       "PackagePath": "staticwebassets\\images\\danh-muc\\icon-do-trang-tri.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\danh-muc\\icon-phong-bep.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\danh-muc\\icon-phong-bep.png",
       "PackagePath": "staticwebassets\\images\\danh-muc\\icon-phong-bep.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\danh-muc\\icon-phong-khach.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\danh-muc\\icon-phong-khach.png",
       "PackagePath": "staticwebassets\\images\\danh-muc\\icon-phong-khach.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\danh-muc\\icon-phong-ngu.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\danh-muc\\icon-phong-ngu.png",
       "PackagePath": "staticwebassets\\images\\danh-muc\\icon-phong-ngu.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\danh-muc\\icon-phong-tam.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\danh-muc\\icon-phong-tam.png",
       "PackagePath": "staticwebassets\\images\\danh-muc\\icon-phong-tam.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\danh-muc\\icon-tre-em.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\danh-muc\\icon-tre-em.png",
       "PackagePath": "staticwebassets\\images\\danh-muc\\icon-tre-em.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\danh-muc\\icon-van-phong.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\danh-muc\\icon-van-phong.png",
       "PackagePath": "staticwebassets\\images\\danh-muc\\icon-van-phong.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\news\\01.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\news\\01.jpg",
       "PackagePath": "staticwebassets\\images\\news\\01.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\news\\02.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\news\\02.jpg",
       "PackagePath": "staticwebassets\\images\\news\\02.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\news\\05.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\news\\05.jpg",
       "PackagePath": "staticwebassets\\images\\news\\05.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\news\\06.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\news\\06.jpg",
       "PackagePath": "staticwebassets\\images\\news\\06.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\001.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\001.jpg",
       "PackagePath": "staticwebassets\\images\\products\\001.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\001c.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\001c.jpg",
       "PackagePath": "staticwebassets\\images\\products\\001c.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\001e.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\001e.jpg",
       "PackagePath": "staticwebassets\\images\\products\\001e.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\007.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\007.jpg",
       "PackagePath": "staticwebassets\\images\\products\\007.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\cau-thang\\019.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\cau-thang\\019.jpg",
       "PackagePath": "staticwebassets\\images\\products\\cau-thang\\019.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\do-trang-tri\\020.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\do-trang-tri\\020.jpg",
       "PackagePath": "staticwebassets\\images\\products\\do-trang-tri\\020.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-bep\\004.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-bep\\004.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-bep\\004.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-bep\\009.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-bep\\009.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-bep\\009.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\001.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\001.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-khach\\001.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\001a.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\001a.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-khach\\001a.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\001b.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\001b.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-khach\\001b.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\001c.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\001c.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-khach\\001c.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\001d.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\001d.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-khach\\001d.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\001e.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\001e.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-khach\\001e.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\002.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\002.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-khach\\002.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\008.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\008.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-khach\\008.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\009.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\009.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-khach\\009.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\011.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\011.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-khach\\011.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\012.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\012.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-khach\\012.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\014.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\014.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-khach\\014.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\015.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-khach\\015.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-khach\\015.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-ngu\\003.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-ngu\\003.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-ngu\\003.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-ngu\\004.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-ngu\\004.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-ngu\\004.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-ngu\\007.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-ngu\\007.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-ngu\\007.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-ngu\\013.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-ngu\\013.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-ngu\\013.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-tam\\005.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-tam\\005.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-tam\\005.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-tam\\006.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-tam\\006.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-tam\\006.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-tam\\007.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-tam\\007.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-tam\\007.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-tam\\008.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\phong-tam\\008.jpg",
       "PackagePath": "staticwebassets\\images\\products\\phong-tam\\008.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\tre-em\\016.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\tre-em\\016.jpg",
       "PackagePath": "staticwebassets\\images\\products\\tre-em\\016.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\tre-em\\017.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\tre-em\\017.jpg",
       "PackagePath": "staticwebassets\\images\\products\\tre-em\\017.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\tre-em\\018.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\tre-em\\018.jpg",
       "PackagePath": "staticwebassets\\images\\products\\tre-em\\018.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\van-phong\\018.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\images\\products\\van-phong\\018.jpg",
       "PackagePath": "staticwebassets\\images\\products\\van-phong\\018.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\animal.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\animal.png",
       "PackagePath": "staticwebassets\\img\\animal.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\award.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\award.png",
       "PackagePath": "staticwebassets\\img\\award.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\banner-1.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\banner-1.jpg",
       "PackagePath": "staticwebassets\\img\\banner-1.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\banner-2.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\banner-2.jpg",
       "PackagePath": "staticwebassets\\img\\banner-2.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\banner.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\banner.jpg",
       "PackagePath": "staticwebassets\\img\\banner.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\carousel-1.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\carousel-1.jpg",
       "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\carousel-2.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\carousel-2.jpg",
       "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\client.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\client.png",
       "PackagePath": "staticwebassets\\img\\client.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\experience.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\experience.png",
       "PackagePath": "staticwebassets\\img\\experience.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\gallery-1.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\gallery-1.jpg",
       "PackagePath": "staticwebassets\\img\\gallery-1.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\gallery-2.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\gallery-2.jpg",
       "PackagePath": "staticwebassets\\img\\gallery-2.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\gallery-3.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\gallery-3.jpg",
       "PackagePath": "staticwebassets\\img\\gallery-3.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\gallery-4.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\gallery-4.jpg",
       "PackagePath": "staticwebassets\\img\\gallery-4.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\gallery-5.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\gallery-5.jpg",
       "PackagePath": "staticwebassets\\img\\gallery-5.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\gallery-6.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\gallery-6.jpg",
       "PackagePath": "staticwebassets\\img\\gallery-6.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\gallery-7.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\gallery-7.jpg",
       "PackagePath": "staticwebassets\\img\\gallery-7.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\gallery-8.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\gallery-8.jpg",
       "PackagePath": "staticwebassets\\img\\gallery-8.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\product-1.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\product-1.jpg",
       "PackagePath": "staticwebassets\\img\\product-1.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\product-2.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\product-2.jpg",
       "PackagePath": "staticwebassets\\img\\product-2.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\product-3.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\product-3.jpg",
       "PackagePath": "staticwebassets\\img\\product-3.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\product-4.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\product-4.jpg",
       "PackagePath": "staticwebassets\\img\\product-4.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\product.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\product.png",
       "PackagePath": "staticwebassets\\img\\product.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\service-1.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\service-1.jpg",
       "PackagePath": "staticwebassets\\img\\service-1.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\service-2.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\service-2.jpg",
       "PackagePath": "staticwebassets\\img\\service-2.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\service-3.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\service-3.jpg",
       "PackagePath": "staticwebassets\\img\\service-3.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\service.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\service.png",
       "PackagePath": "staticwebassets\\img\\service.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\team-1.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\team-1.jpg",
       "PackagePath": "staticwebassets\\img\\team-1.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\team-2.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\team-2.jpg",
       "PackagePath": "staticwebassets\\img\\team-2.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\team-3.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\team-3.jpg",
       "PackagePath": "staticwebassets\\img\\team-3.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\testimonial-1.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\testimonial-1.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\testimonial-2.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\testimonial-2.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\testimonial-3.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\testimonial-3.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\img\\testimonial-4.jpg",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\img\\testimonial-4.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\js\\main.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\js\\site.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\animate\\animate.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\animate\\animate.css",
       "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\animate\\animate.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\animate\\animate.min.css",
       "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\counterup\\counterup.min.js",
       "PackagePath": "staticwebassets\\lib\\counterup\\counterup.min.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\easing\\easing.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\easing\\easing.js",
       "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\easing\\easing.min.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\easing\\easing.min.js",
       "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\lightbox\\css\\lightbox.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\lightbox\\css\\lightbox.css",
       "PackagePath": "staticwebassets\\lib\\lightbox\\css\\lightbox.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
       "PackagePath": "staticwebassets\\lib\\lightbox\\css\\lightbox.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\lightbox\\images\\close.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\lightbox\\images\\close.png",
       "PackagePath": "staticwebassets\\lib\\lightbox\\images\\close.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\lightbox\\images\\loading.gif",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\lightbox\\images\\loading.gif",
       "PackagePath": "staticwebassets\\lib\\lightbox\\images\\loading.gif"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\lightbox\\images\\next.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\lightbox\\images\\next.png",
       "PackagePath": "staticwebassets\\lib\\lightbox\\images\\next.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\lightbox\\images\\prev.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\lightbox\\images\\prev.png",
       "PackagePath": "staticwebassets\\lib\\lightbox\\images\\prev.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\lightbox\\js\\lightbox.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\lightbox\\js\\lightbox.js",
       "PackagePath": "staticwebassets\\lib\\lightbox\\js\\lightbox.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
       "PackagePath": "staticwebassets\\lib\\lightbox\\js\\lightbox.min.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\lightbox\\links.php",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\lightbox\\links.php",
       "PackagePath": "staticwebassets\\lib\\lightbox\\links.php"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\owlcarousel"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\parallax\\parallax.min.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\parallax\\parallax.min.js",
       "PackagePath": "staticwebassets\\lib\\parallax\\parallax.min.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\waypoints\\links.php",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\waypoints\\links.php",
       "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\waypoints\\waypoints.min.js",
       "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\wow\\wow.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\wow\\wow.js",
       "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\lib\\wow\\wow.min.js",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\lib\\wow\\wow.min.js",
       "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_accordion.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_containers.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_helpers.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_offcanvas.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
     },
     {
-      "Id": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "Id": "D:\\DATN\\Pet_Care\\Pet_Care\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {

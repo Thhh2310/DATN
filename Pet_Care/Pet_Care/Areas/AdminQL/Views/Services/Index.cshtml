@@ -28,7 +28,13 @@
                     @Html.DisplayNameFor(model => model.FirstOrDefault().Description)
                 </th>
                 <th>
+                    @Html.DisplayNameFor(model => model.FirstOrDefault().Image)
+                </th>
+                <th>
                     @Html.DisplayNameFor(model => model.FirstOrDefault().Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstOrDefault().OldPrice)
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.FirstOrDefault().Status)
@@ -53,7 +59,13 @@
                         @Html.DisplayFor(modelItem => item.Description)
                     </td>
                     <td>
+                        @Html.DisplayFor(modelItem => item.Image)
+                    </td>
+                    <td>
                         @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OldPrice)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Status)

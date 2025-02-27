@@ -19,6 +19,10 @@ public partial class Service
 
     public DateOnly? CreatedDate { get; set; }
 
+    public string? Image { get; set; }
+
+    public double? OldPrice { get; set; }
+
     public virtual CategoryService? CategoryService { get; set; }
 
     public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();

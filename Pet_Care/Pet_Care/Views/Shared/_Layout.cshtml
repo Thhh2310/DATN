@@ -73,19 +73,24 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dịch vụ</a>
                         <div class="dropdown-menu bg-light m-0">
-                            <a href="gallery.html" class="dropdown-item">Spa & Grooming</a>
-                            <a href="feature.html" class="dropdown-item">Pet & Daycare</a>
-                            <a href="team.html" class="dropdown-item">Pet health check</a>
+                            @if (ViewBag.ServiceCategories != null)
+                            {
+                                @foreach (var category in ViewBag.ServiceCategories as List<CategoryService>)
+                                {
+                                    <a asp-controller="Service" asp-action="Index" asp-route-id="@category.CategoryServiceId" class="dropdown-item">@category.CategoryServiceName</a>
+                                }
+                            }
                         </div>
                     </div>
                     <a asp-controller="News" asp-action="Index" class="nav-item nav-link">Tin tức</a>
                     <a asp-controller="Contact" asp-action="Index" class="nav-item nav-link">Liên hệ</a>
                 </div>
                 <div class="border-start ps-4 d-none d-lg-block">
-                    <button type="button" class="btn btn-sm p-0">
+                    <button type="button" class="btn btn-sm p-0" onclick="window.location.href='/Login/Login'">
                         <i class="fa fa-user-circle fa-2x me-2"></i>
-                        </button>
+                    </button>
                 </div>
+
             </div>
         </nav>
         <!-- Navbar End -->
@@ -115,11 +120,11 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Về chúng tôi</h5>
-                        <a class="btn btn-link" href="">Giới thiệu</a>
-                        <a class="btn btn-link" href="">Dịch vụ</a>
-                        <a class="btn btn-link" href="">Sản phẩm</a>
-                        <a class="btn btn-link" href="">Tin tức</a>
-                        <a class="btn btn-link" href="">Liên hệ</a>
+                        <a class="btn btn-link" asp-controller="Home" asp-action="Index">Trang chủ</a>
+                        <a class="btn btn-link" asp-controller="About" asp-action="Index">Giới thiệu</a>
+                        <a class="btn btn-link" asp-controller="About" asp-action="Index">Dịch vụ</a>
+                        <a class="btn btn-link" asp-controller="News" asp-action="Index">Tin tức</a>
+                        <a class="btn btn-link" asp-controller="Contact" asp-action="Index">Liên hệ</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Giờ làm việc</h5>

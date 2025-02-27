@@ -7691,11 +7691,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\Pet_Care.csproj",
+      "projectUniqueName": "D:\\DATN\\Pet_Care\\Pet_Care\\Pet_Care.csproj",
       "projectName": "Pet_Care",
-      "projectPath": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\Pet_Care.csproj",
+      "projectPath": "D:\\DATN\\Pet_Care\\Pet_Care\\Pet_Care.csproj",
       "packagesPath": "C:\\Users\\tranh\\.nuget\\packages\\",
-      "outputPath": "D:\\TTCD_đồ án\\Pet_Care\\Pet_Care\\obj\\",
+      "outputPath": "D:\\DATN\\Pet_Care\\Pet_Care\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

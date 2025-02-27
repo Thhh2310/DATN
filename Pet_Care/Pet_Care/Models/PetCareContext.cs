@@ -43,8 +43,6 @@ public partial class PetCareContext : DbContext
 
     public virtual DbSet<Service> Services { get; set; }
 
-    public virtual DbSet<Size> Sizes { get; set; }
-
     public virtual DbSet<Staff> Staffs { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -177,7 +175,6 @@ public partial class PetCareContext : DbContext
             entity.Property(e => e.PetId).HasColumnName("PetID");
             entity.Property(e => e.Quantity).HasDefaultValue(1);
             entity.Property(e => e.ServiceId).HasColumnName("ServiceID");
-            entity.Property(e => e.SizeId).HasColumnName("SizeID");
             entity.Property(e => e.TotalPrice).HasComputedColumnSql("([Quantity]*[Price])", true);
 
             entity.HasOne(d => d.Appointment).WithMany(p => p.OrderDetails)
@@ -196,10 +193,6 @@ public partial class PetCareContext : DbContext
             entity.HasOne(d => d.Service).WithMany(p => p.OrderDetails)
                 .HasForeignKey(d => d.ServiceId)
                 .HasConstraintName("FK__OrderDeta__Servi__71D1E811");
-
-            entity.HasOne(d => d.Size).WithMany(p => p.OrderDetails)
-                .HasForeignKey(d => d.SizeId)
-                .HasConstraintName("FK__OrderDeta__SizeI__74AE54BC");
         });
 
         modelBuilder.Entity<PaymentMethod>(entity =>
@@ -266,14 +259,6 @@ public partial class PetCareContext : DbContext
             entity.HasOne(d => d.CategoryService).WithMany(p => p.Services)
                 .HasForeignKey(d => d.CategoryServiceId)
                 .HasConstraintName("FK__Services__Catego__571DF1D5");
-        });
-
-        modelBuilder.Entity<Size>(entity =>
-        {
-            entity.HasKey(e => e.SizeId).HasName("PK__Sizes__83BD095A71CB6C0C");
-
-            entity.Property(e => e.SizeId).HasColumnName("SizeID");
-            entity.Property(e => e.SizeName).HasMaxLength(50);
         });
 
         modelBuilder.Entity<Staff>(entity =>
