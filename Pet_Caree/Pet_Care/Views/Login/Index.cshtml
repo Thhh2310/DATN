@@ -1,0 +1,55 @@
+﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    ViewData["Title"] = "Đăng nhập";
+Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (TempData["successRegister"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["successRegister"]
+    </div>
+}
+@if (TempData["errorLogin"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["errorLogin"]
+    </div>
+}
+
+<style>
+    form {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background: #ccc;
+        padding: 1rem;
+        margin-bottom: 10rem;
+    }
+</style>
+
+<div class="container">
+    <h2 class="text-center my-2 py-2">THÔNG TIN ĐĂNG NHẬP</h2>
+    <form asp-action="Index" method="post">
+        <div class="mb-3">
+            <label for="UserOrEmail" class="form-label">Email</label>
+            <input type="text" class="form-control" id="UserOrEmail" name="UserOrEmail" />
+        </div>
+        <div class="mb-3">
+            <label for="Password" class="form-label">Mật khẩu</label>
+            <input type="password" class="form-control" id="Password" name="Password" />
+        </div>
+        <button type="submit" class="btn btn-primary">Đăng nhập</button>
+
+        <div class="text-center mt-3">
+            <a href="/Login/ForgotPassword" class="text-decoration-none">Quên mật khẩu?</a>
+        </div>
+        <div class="text-center mt-2">
+            Chưa có tài khoản? <a asp-controller="Register" asp-action="Index" class="text-decoration-none fw-bold">Đăng ký ngay!</a>
+        </div>
+    </form>
+</div>
+
+
+
+

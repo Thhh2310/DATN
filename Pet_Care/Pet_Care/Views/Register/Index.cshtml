@@ -1,0 +1,75 @@
+﻿@model (Pet_Care.Models.Customer, Pet_Care.Models.Pet)
+
+@{
+    ViewData["Title"] = "Đăng ký tài khoản";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Đăng ký tài khoản</h2>
+
+    @if (TempData["errorRegister"] != null)
+    {
+        <div class="alert alert-danger">@TempData["errorRegister"]</div>
+    }
+
+    <form asp-action="Create" method="post">
+        <h4>Thông tin khách hàng</h4>
+        <div class="mb-3">
+            <label for="FullName" class="form-label">Họ và tên</label>
+            <input type="text" class="form-control" id="FullName" name="FullName" required />
+        </div>
+        <div class="mb-3">
+            <label for="Email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="Email" name="Email" required />
+        </div>
+        <div class="mb-3">
+            <label for="Password" class="form-label">Mật khẩu</label>
+            <input type="password" class="form-control" id="Password" name="Password" required />
+        </div>
+        <div class="mb-3">
+            <label for="Phone" class="form-label">Số điện thoại</label>
+            <input type="text" class="form-control" id="Phone" name="Phone" required />
+        </div>
+        <div class="mb-3">
+            <label for="Address" class="form-label">Địa chỉ</label>
+            <input type="text" class="form-control" id="Address" name="Address" />
+        </div>
+
+        <h4>Thông tin thú cưng</h4>
+        <div class="mb-3">
+            <label for="PetName" class="form-label">Tên thú cưng</label>
+            <input type="text" class="form-control" id="PetName" name="PetName" required />
+        </div>
+        <div class="mb-3">
+            <label for="CategoryId" class="form-label">Loại thú cưng</label>
+            <select class="form-control" id="CategoryId" name="CategoryId">
+                <option value="1">Chó</option>
+                <option value="2">Mèo</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="Age" class="form-label">Tuổi</label>
+            <input type="number" class="form-control" id="Age" name="Age" />
+        </div>
+        <div class="mb-3">
+            <label for="Weight" class="form-label">Cân nặng (kg)</label>
+            <input type="number" step="0.1" class="form-control" id="Weight" name="Weight" />
+        </div>
+        <div class="mb-3">
+            <label for="Color" class="form-label">Màu sắc</label>
+            <input type="text" class="form-control" id="Color" name="Color" />
+        </div>
+        <div class="mb-3">
+            <label for="Notes" class="form-label">Ghi chú</label>
+            <textarea class="form-control" id="Notes" name="Notes"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Đăng ký</button>
+    </form>
+
+    <div class="text-center mt-3">
+        Đã có tài khoản?
+        <a asp-controller="Login" asp-action="Index" class="text-decoration-none"> Đăng nhập ngay!</a>
+    </div>
+</div>

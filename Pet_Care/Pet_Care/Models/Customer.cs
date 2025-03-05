@@ -26,4 +26,7 @@ public partial class Customer
     public virtual ICollection<Pet> Pets { get; set; } = new List<Pet>();
 
     public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();
+
+    // Thêm thuộc tính hỗ trợ binding khi đăng ký
+    public Pet Pet { get; set; } = new Pet();
 }

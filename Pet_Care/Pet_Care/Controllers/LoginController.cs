@@ -17,56 +17,16 @@ namespace Pet_Care.Controllers
             _httpContextAccessor = httpContextAccessor;
         }
 
-        public IActionResult Index(string url)
-        {
-            return View();
-        }
-
-        // GET: Đăng ký
-        public IActionResult Register()
-        {
-            return View();
-        }
-
-        // POST: Đăng ký
-        [HttpPost]
-        public IActionResult Register(Customer model)
-        {
-
-            try
-            {
-                if (model == null || string.IsNullOrEmpty(model.Password) || string.IsNullOrEmpty(model.Email))
-                {
-                    TempData["errorRegister"] = "Thông tin đăng ký không hợp lệ.";
-                    return RedirectToAction("Index");
-                }
-
-                // Thiết lập thông tin cần thiết cho khách hàng
-                model.Password = model.Password; // Đây là nơi mã hóa mật khẩu có thể được thực hiện nếu cần
-
-                // Thêm khách hàng vào cơ sở dữ liệu
-                _context.Add(model);
-                _context.SaveChanges();
-
-                TempData["successRegister"] = "Đăng ký thành công. Vui lòng đăng nhập!";
-                return RedirectToAction("Login");
-            }
-            catch (Exception ex)
-            {
-                TempData["errorRegister"] = "Lỗi đăng ký: " + ex.Message;
-                return RedirectToAction("Index");
-            }
-        }
-
         // GET: Đăng nhập
-        public IActionResult Login()
+        public IActionResult Index()
         {
+            ViewBag.ServiceCategories = _context.CategoryServices.ToList();
             return View();
         }
 
         // POST: Đăng nhập
         [HttpPost]
-        public IActionResult Login(string userOrEmail, string password)
+        public IActionResult Index(string userOrEmail, string password)
         {
             // Kiểm tra thông tin đăng nhập
             bool isAuthenticated = Authenticate(userOrEmail, password);

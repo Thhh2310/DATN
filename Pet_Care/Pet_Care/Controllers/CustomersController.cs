@@ -21,6 +21,7 @@ namespace Pet_Care.Controllers
         // GET: Customers
         public async Task<IActionResult> Index()
         {
+            ViewBag.ServiceCategories = _context.CategoryServices.ToList();
             return View(await _context.Customers.ToListAsync());
         }
 
@@ -45,6 +46,7 @@ namespace Pet_Care.Controllers
         // GET: Customers/Create
         public IActionResult Create()
         {
+            ViewBag.ServiceCategories = _context.CategoryServices.ToList();
             return View();
         }
 

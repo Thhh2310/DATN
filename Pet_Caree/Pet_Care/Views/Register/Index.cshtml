@@ -1,0 +1,47 @@
+﻿@model Pet_Care.Models.Customer
+
+@{
+    ViewData["Title"] = "Đăng ký tài khoản";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Đăng ký tài khoản</h2>
+
+    @if (TempData["errorRegister"] != null)
+    {
+        <div class="alert alert-danger">@TempData["errorRegister"]</div>
+    }
+
+    <form asp-action="Index" method="post" enctype="multipart/form-data">
+        <h4>Thông tin khách hàng</h4>
+        <div class="mb-3">
+            <label for="FullName" class="form-label">Họ và tên</label>
+            <input type="text" class="form-control" id="FullName" name="FullName" required />
+        </div>
+        <div class="mb-3">
+            <label for="Email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="Email" name="Email" required />
+        </div>
+        <div class="mb-3">
+            <label for="Password" class="form-label">Mật khẩu</label>
+            <input type="password" class="form-control" id="Password" name="Password" required />
+        </div>
+        <div class="mb-3">
+            <label for="Phone" class="form-label">Số điện thoại</label>
+            <input type="text" class="form-control" id="Phone" name="Phone" required />
+        </div>
+        <div class="mb-3">
+            <label for="Address" class="form-label">Địa chỉ</label>
+            <input type="text" class="form-control" id="Address" name="Address" />
+        </div>
+
+        
+        <button type="submit" class="btn btn-primary w-100">Đăng ký</button>
+    </form>
+
+    <div class="text-center mt-3">
+        Đã có tài khoản?
+        <a asp-controller="Login" asp-action="Index" class="text-decoration-none">Đăng nhập ngay!</a>
+    </div>
+</div>
