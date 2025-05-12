@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "awiFLS218R3tk5F1X1GxqSM39DB+mxgQr79ZQPpA/Zo=",
+  "Hash": "SeJppMvUjq9nN5Qlj9Mt1+pcwkbzp5wFWMcUDEPh/XY=",
   "Source": "Pet_Care",
   "BasePath": "_content/Pet_Care",
   "Mode": "Default",
@@ -1763,6 +1763,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\admin\\hwh.jpg"
+    },
+    {
+      "Identity": "D:\\DATN\\Pet_Caree\\Pet_Care\\wwwroot\\images\\admin\\jk.jpg",
+      "SourceId": "Pet_Care",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DATN\\Pet_Caree\\Pet_Care\\wwwroot\\",
+      "BasePath": "_content/Pet_Care",
+      "RelativePath": "images/admin/jk.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\admin\\jk.jpg"
     },
     {
       "Identity": "D:\\DATN\\Pet_Caree\\Pet_Care\\wwwroot\\images\\admin\\nth.jpg",

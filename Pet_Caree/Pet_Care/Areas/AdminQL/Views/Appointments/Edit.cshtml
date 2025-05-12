@@ -1,0 +1,48 @@
+﻿@model Pet_Care.Models.Appointment
+
+@{
+    ViewData["Title"] = "Edit Appointment";
+    Layout = "~/Areas/AdminQL/Views/Shared/_Admins.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>Chỉnh sửa lịch hẹn</h2>
+        </div>
+        <div class="card-body">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                <input type="hidden" asp-for="AppointmentId" />
+
+                <div class="mb-3">
+                    <label asp-for="AppointmentDate" class="form-label fw-bold"></label>
+                    <input asp-for="AppointmentDate" class="form-control" type="date" />
+                    <span asp-validation-for="AppointmentDate" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="AppointmentTime" class="form-label fw-bold"></label>
+                    <input asp-for="AppointmentTime" class="form-control" type="time" />
+                    <span asp-validation-for="AppointmentTime" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Status" class="form-label fw-bold"></label>
+                    <select asp-for="Status" class="form-control">
+                        <option value="Chờ xác nhận">Chờ xác nhận</option>
+                        <option value="Đã xác nhận">Đã xác nhận</option>
+                        <option value="Đã hoàn thành">Đã hoàn thành</option>
+                        <option value="Huỷ">Huỷ</option>
+                    </select>
+                    <span asp-validation-for="Status" class="text-danger"></span>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success px-4">Lưu</button>
+                    <a asp-action="Index" class="btn btn-secondary px-4">Quay lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

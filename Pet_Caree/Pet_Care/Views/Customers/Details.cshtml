@@ -1,61 +1,59 @@
 ﻿@model Pet_Care.Models.Customer
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Thông tin khách hàng";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Details</h1>
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg rounded-4 border-0">
+                <div class="card-header bg-secondary text-white text-center rounded-top-4">
+                    <h4 class="mb-0">Thông tin khách hàng</h4>
+                </div>
+                <div class="card-body px-5 py-4">
+                    <div class="mb-3 row">
+                        <label class="col-sm-4 col-form-label fw-semibold">Họ và tên:</label>
+                        <div class="col-sm-8 pt-2">
+                            @Html.DisplayFor(model => model.FullName)
+                        </div>
+                    </div>
 
-<div>
-    <h4>Customer</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FullName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.FullName)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Address)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Address)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Phone)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Phone)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Email)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Password)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Password)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DateOfBirth)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DateOfBirth)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.RegistrationDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.RegistrationDate)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.CustomerId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+                    <div class="mb-3 row">
+                        <label class="col-sm-4 col-form-label fw-semibold">Địa chỉ:</label>
+                        <div class="col-sm-8 pt-2">
+                            @Html.DisplayFor(model => model.Address)
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label class="col-sm-4 col-form-label fw-semibold">Số điện thoại:</label>
+                        <div class="col-sm-8 pt-2">
+                            @Html.DisplayFor(model => model.Phone)
+                        </div>
+                    </div>
+
+                    <div class="mb-3 row">
+                        <label class="col-sm-4 col-form-label fw-semibold">Email:</label>
+                        <div class="col-sm-8 pt-2">
+                            @Html.DisplayFor(model => model.Email)
+                        </div>
+                    </div>
+
+                    @* <div class="mb-3 row">
+                        <label class="col-sm-4 col-form-label fw-semibold">Ngày sinh:</label>
+                        <div class="col-sm-8 pt-2">
+                            @Html.DisplayFor(model => model.DateOfBirth)
+                        </div>
+                    </div> *@
+                </div>
+                @* <div class="card-footer bg-light text-end rounded-bottom-4">
+                    <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@Model.CustomerId">
+                        <i class="fa fa-edit me-1"></i> Chỉnh sửa
+                    </a>
+                </div> *@
+            </div>
+        </div>
+    </div>
 </div>

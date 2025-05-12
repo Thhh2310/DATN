@@ -44,16 +44,15 @@ namespace Pet_Care.Controllers
             ViewBag.Customer = customer;
 
             // Lấy danh sách thú cưng của khách hàng
-            var pets = _context.Pets.Where(p => p.CustomerId == customer.CustomerId).ToList();
+            var pets = _context.Pets.FirstOrDefault(p => p.CustomerId == customer.CustomerId);
             ViewBag.Pets = pets;
 
             // Lấy danh sách đơn hàng
             var orders = _context.Orders.Where(o => o.CustomerId == customer.CustomerId).ToList();
             ViewBag.Orders = orders;
 
-            // Kiểm tra xem có thú cưng chưa
-            ViewBag.HasPets = pets.Any();
-
+            var carts = HttpContext.Session.GetObjectFromJson<List<Cart>>("My-Cart") ?? new List<Cart>();
+            ViewBag.CartItems = carts;
             return View();
         }
 

@@ -1,0 +1,50 @@
+﻿@model Pet_Care.Models.OrderDetail
+
+@{
+    ViewData["Title"] = "Create Order Detail";
+    Layout = "~/Areas/AdminQL/Views/Shared/_Admins.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>Tạo mới chi tiết đơn hàng</h2>
+        </div>
+        <div class="card-body">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <div class="mb-3">
+                    <label asp-for="OrderId" class="form-label fw-bold"></label>
+                    <select asp-for="OrderId" class="form-select" asp-items="ViewBag.OrderId"></select>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ServiceId" class="form-label fw-bold"></label>
+                    <select asp-for="ServiceId" class="form-select" asp-items="ViewBag.ServiceId"></select>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="PetId" class="form-label fw-bold"></label>
+                    <select asp-for="PetId" class="form-select" asp-items="ViewBag.PetId"></select>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="AppointmentId" class="form-label fw-bold"></label>
+                    <select asp-for="AppointmentId" class="form-select" asp-items="ViewBag.AppointmentId"></select>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Price" class="form-label fw-bold"></label>
+                    <input asp-for="Price" class="form-control"/>
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success px-4">Toạ mới</button>
+                    <a asp-action="Index" class="btn btn-secondary px-4">Quay lại  </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

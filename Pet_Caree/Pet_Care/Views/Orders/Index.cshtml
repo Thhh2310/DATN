@@ -38,40 +38,32 @@
                 </div>
             </div>
 
-            <!-- Nếu chưa có thú cưng, hiển thị form đăng ký thú cưng -->
-            @if (!ViewBag.HasPets)
-            {
-                <div class="border p-3 rounded shadow-sm mt-3">
-                    <h4 class="text-danger">Bạn chưa đăng ký thú cưng! Vui lòng nhập thông tin</h4>
-                    <form asp-action="Create" asp-controller="Pets" method="post">
-                        <input type="hidden" name="CustomerId" value="@ViewBag.Customer.CustomerId" />
-                        <div class="mb-3">
-                            <label class="form-label">Tên thú cưng</label>
-                            <input type="text" name="PetName" class="form-control" required />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Loại thú cưng</label>
-                            <select name="CategoryId" class="form-control">
-                                <option value="1">Chó</option>
-                                <option value="2">Mèo</option>
-                            </select>
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Tuổi</label>
-                            <input type="number" name="Age" class="form-control" required />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Cân nặng (kg)</label>
-                            <input type="number" name="Weight" class="form-control" step="0.1" required />
-                        </div>
-                    </form>
+            <!-- Thông tin thú cưng -->
+            <div class="col-md-6">
+                <div class="border p-3 rounded shadow-sm">
+                    <h4 class="text-primary">Thông tin thú cưng</h4>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Tên thú cưng</span>
+                        <input type="text" class="form-control" readonly value="@ViewBag.Pets.PetName" />
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Tuổi</span>
+                        <input type="text" class="form-control" readonly value="@ViewBag.Pets.Age" />
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Cân năng</span>
+                        <input type="text" class="form-control" readonly value="@ViewBag.Pets.Weight" />
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Màu sắc</span>
+                        <input type="text" class="form-control" readonly value="@ViewBag.Pets.Color" />
+                    </div>
                 </div>
-            }
+            </div>
 
             <!-- Form đặt lịch hẹn -->
             <div class="border p-3 rounded shadow-sm mt-3">
                 <h4 class="text-primary">Đặt lịch hẹn</h4>
-                <form asp-action="Create" asp-controller="Appointments" method="post">
                     <div class="mb-3">
                         <label class="form-label">Chọn ngày hẹn</label>
                         <input type="date" name="AppointmentDate" class="form-control" required />
@@ -80,7 +72,6 @@
                         <label class="form-label">Chọn giờ</label>
                         <input type="time" name="AppointmentTime" class="form-control" required />
                     </div>
-                </form>
             </div>
         </div>
 
@@ -106,7 +97,7 @@
                                 <td>@item.Name</td>
                                 <td class="fw-bold text-success">@item.Price VNĐ</td>
                                 <td>
-                                    <a class="btn btn-danger btn-sm" asp-action="Remove" asp-route-id="@item.Id">
+                                    <a class="btn btn-danger btn-sm" asp-controller="Cart" asp-action="Remove" asp-route-id="@item.Id">
                                         <i class="bi bi-trash"></i> Xóa
                                     </a>
                                 </td>

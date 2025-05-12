@@ -1,0 +1,36 @@
+﻿@model Pet_Care.Models.News
+
+@{
+    ViewData["Title"] = "Create News";
+    Layout = "~/Areas/AdminQL/Views/Shared/_Admins.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>Create News</h2>
+        </div>
+        <div class="card-body">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <div class="mb-3">
+                    <label asp-for="Title" class="form-label fw-bold"></label>
+                    <input asp-for="Title" class="form-control" placeholder="Enter news title" />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Content" class="form-label fw-bold"></label>
+                    <textarea asp-for="Content" class="form-control" rows="5" placeholder="Enter news content"></textarea>
+                    <span asp-validation-for="Content" class="text-danger"></span>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success px-4">Create</button>
+                    <a asp-action="Index" class="btn btn-secondary px-4">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

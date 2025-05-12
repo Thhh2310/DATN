@@ -1,0 +1,35 @@
+﻿@model Pet_Care.Models.Admin
+
+@{
+    ViewData["Title"] = "Admin Details";
+    Layout = "~/Areas/AdminQL/Views/Shared/_Admins.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-lg">
+        <div class="card-header bg-info text-white text-center">
+            <h2>Chi tiết thông tin quản trị viên</h2>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.AdminName)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.AdminName)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Email)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Email)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Password)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Password)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Avatar)</dt>
+                <dd class="col-sm-9">
+                    <img src="@Model.Avatar" alt="Icon" class="img-thumbnail" style="max-width: 150px; max-height: 150px;">
+                </dd>
+            </dl>
+        </div>
+        <div class="card-footer text-center">
+            <a asp-action="Edit" asp-route-id="@Model?.AdminId" class="btn btn-warning px-4">Sửa</a>
+            <a asp-action="Index" class="btn btn-secondary px-4">Quay lại</a>
+        </div>
+    </div>
+</div>

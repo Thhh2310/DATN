@@ -1,4 +1,6 @@
-﻿﻿@{
+﻿@model Pet_Care.Models.Contact
+
+﻿@{
     ViewData["Title"] = "Liên hệ";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -9,8 +11,8 @@
         <h1 class="display-3 text-dark mb-4 animated slideInDown">Liên hệ</h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb justify-content-center mb-0">
-                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">About</li>
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+                <li class="breadcrumb-item active" aria-current="page">liên hệ</li>
             </ol>
         </nav>
     </div>
@@ -26,30 +28,30 @@
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                 <h3 class="mb-4">Gửi liên hệ tại đây</h3>
-                <form>
+                <form asp-action="SubmitContact" asp-controller="Contact" method="post" enctype="multipart/form-data">
                     <div class="row g-3">
                         <div class="col-md-6">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="name" placeholder="Họ tên">
-                                <label for="name">Họ tên</label>
+                                <input type="text" class="form-control" name="Phone" placeholder="Số điện thoại">
+                                <label for="Phone">Số điện thoại</label>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-floating">
-                                <input type="email" class="form-control" id="Email" placeholder="Email">
-                                <label for="email">Email</label>
+                                <input type="text" class="form-control" name="Title" placeholder="Họ tên" />
+                                <label for="Title">Họ tên</label>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="Title" placeholder="Chủ đề">
-                                <label for="subject">Chủ đề</label>
+                                <input type="email" class="form-control" name="Email" placeholder="Email" required>
+                                <label for="Email">Email</label>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-floating">
-                                <textarea class="form-control" placeholder="Nội dung" id="Content" style="height: 250px"></textarea>
-                                <label for="message">Nội dung</label>
+                                <textarea name="Content" class="form-control" style="height: 250px" placeholder="Nội dung"></textarea>
+                                <label for="Content">Nội dung</label>
                             </div>
                         </div>
                         <div class="col-12">
@@ -96,3 +98,14 @@
     </div>
 </div>
 <!-- Contact End -->
+
+<!-- Thêm SweetAlert2 để hiển thị thông báo -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Kiểm tra và hiển thị thông báo thành công
+            var successMessage = '@Html.Raw(System.Web.HttpUtility.JavaScriptStringEncode(TempData["SuccessMessage"]?.ToString() ?? ""))';
+        }
+    </script>
+    }

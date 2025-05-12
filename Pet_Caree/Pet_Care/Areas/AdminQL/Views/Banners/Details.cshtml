@@ -1,0 +1,32 @@
+﻿@model Pet_Care.Models.Banner
+
+@{
+    ViewData["Title"] = "Banner Details";
+    Layout = "~/Areas/AdminQL/Views/Shared/_Admins.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-lg">
+        <div class="card-header bg-info text-white text-center">
+            <h2>Banner Details</h2>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Image)</dt>
+                <dd class="col-sm-9">
+                    <img src="@Model.Image" alt="Banner Image" class="img-thumbnail" style="max-width: 300px; max-height: 150px;">
+                </dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Title)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Title)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.CreatedDate)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.CreatedDate)</dd>
+            </dl>
+        </div>
+        <div class="card-footer text-center">
+            <a asp-action="Edit" asp-route-id="@Model?.BannerId" class="btn btn-warning px-4">Edit</a>
+            <a asp-action="Index" class="btn btn-secondary px-4">Back to List</a>
+        </div>
+    </div>
+</div>

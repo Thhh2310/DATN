@@ -112,7 +112,7 @@ namespace Pet_Care.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Details", new { id = customer.CustomerId });
             }
             return View(customer);
         }

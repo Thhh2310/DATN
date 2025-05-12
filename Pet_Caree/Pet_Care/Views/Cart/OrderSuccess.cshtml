@@ -1,5 +1,50 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Thanh toán thành công";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+<style>
+    .success-area {
+        padding: 50px 0;
+        background-color: #f8f9fa;
+    }
+
+    .success-title {
+        font-size: 36px;
+        color: #28a745;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .success-message {
+        font-size: 18px;
+        color: #666;
+        margin-bottom: 40px;
+    }
+</style>
+
+<!-- Page Header Start -->
+<div class="container-fluid py-5 mb-5 wow fadeIn" style="background: url('/img/imgpetcare/banner2.jpg')" data-wow-delay="0.1s">
+    <div class="container text-center py-5">
+        <h1 class="display-3 text-dark mb-4 animated slideInDown">Thanh toán thành công</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Thành công</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<!-- Page Header End -->
+
+
+<div class="success-area section-padding-0-100 clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="success-title">Thanh toán thành công!</h2>
+                <p class="success-message">Cảm ơn bạn đã đặt dịch vụ. Hẹn gặp lại lần sau!</p>
+            </div>
+        </div>
+    </div>
+</div>

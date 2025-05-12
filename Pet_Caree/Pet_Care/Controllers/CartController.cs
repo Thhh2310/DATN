@@ -10,15 +10,22 @@ using System;
 public class CartController : Controller
 {
     private readonly PetCareContext _context;
-    private object _httpContextAccessor;
+    //private object _httpContextAccessor;
+    private readonly IHttpContextAccessor _httpContextAccessor;
 
-    public CartController(PetCareContext context)
+    public CartController(PetCareContext context, IHttpContextAccessor httpContextAccessor)
     {
         _context = context;
+        _httpContextAccessor = httpContextAccessor;
     }
 
     public IActionResult Index()
     {
+        var member = _httpContextAccessor.HttpContext.Session.GetString("Member");
+        if (member == null || member == "")
+        {
+            return RedirectToAction("Index", "Login");
+        }
         ViewBag.ServiceCategories = _context.CategoryServices.ToList();
 
         var carts = HttpContext.Session.GetObjectFromJson<List<Cart>>("My-Cart") ?? new List<Cart>();
@@ -94,7 +101,7 @@ public class CartController : Controller
     /// </summary>
     /// <returns></returns>
     [HttpPost]
-    public async Task<IActionResult> OrderPay()
+    public async Task<IActionResult> OrderPay(DateTime AppointmentDate, TimeSpan AppointmentTime)
     {
         // Lấy giỏ hàng từ session
         var carts = HttpContext.Session.GetObjectFromJson<List<Cart>>("My-Cart") ?? new List<Cart>();
@@ -121,11 +128,60 @@ public class CartController : Controller
             return RedirectToAction("Index");
         }
 
-        // Đưa dữ liệu vào ViewBag hoặc Model
-        ViewBag.Customer = customer;
-        ViewBag.CartItems = carts;
+        // Lấy danh sách thú cưng của khách hàng
+        var pets = _context.Pets.FirstOrDefault(p => p.CustomerId == customer.CustomerId);
+        ViewBag.Pets = pets;
 
-        return View();
+        ViewBag.Customer = customer;
+
+        // Tính tổng tiền
+        double totalAmount = carts.Sum(c => c.Price);
+
+        // Tạo đơn hàng mới
+        var order = new Order
+        {
+            CustomerId = customer.CustomerId,
+            OrderDate = DateOnly.FromDateTime(DateTime.Now),
+            Status = "Chờ xử lý",
+            TotalAmount = totalAmount
+        };
+        _context.Orders.Add(order);
+        await _context.SaveChangesAsync();
+
+        // Tạo lịch hẹn
+        var appointment = new Appointment
+        {
+            AppointmentDate = DateOnly.FromDateTime(AppointmentDate),
+            AppointmentTime = TimeOnly.FromTimeSpan(AppointmentTime),
+            Status = "Chờ xác nhận"
+        };
+        _context.Appointments.Add(appointment);
+        await _context.SaveChangesAsync();
+
+        // Tạo chi tiết đơn hàng cho mỗi dịch vụ
+        foreach (var item in carts)
+        {
+            var detail = new OrderDetail
+            {
+                OrderId = order.OrderId,
+                ServiceId = item.Id,
+                Price = item.Price,
+                Quantity = 1,
+                TotalPrice = item.Price,
+                PetId = pets.PetId,
+                AppointmentId = appointment.AppointmentId
+            };
+            _context.OrderDetails.Add(detail);
+        }
+
+        await _context.SaveChangesAsync();
+
+        // Xoá giỏ hàng
+        HttpContext.Session.Remove("My-Cart");
+
+
+        TempData["success"] = "Đặt lịch thành công!";
+        return RedirectToAction("OrderSuccess", "Cart");
     }
 
 

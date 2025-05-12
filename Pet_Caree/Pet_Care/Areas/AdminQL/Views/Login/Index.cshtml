@@ -1,0 +1,122 @@
+﻿@model Pet_Care.Areas.AdminQL.Models.Login
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Đăng nhập Admin</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AdminLTE -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-box {
+            width: 400px;
+        }
+
+        .card {
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            background-color: #ffffff;
+            padding: 25px;
+        }
+
+        .login-logo a {
+            font-size: 2rem;
+            color: #4e73df;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .login-box-msg {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .btn-primary {
+            background-color: #4e73df;
+            border-color: #4e73df;
+            font-weight: 500;
+            border-radius: 8px;
+        }
+
+            .btn-primary:hover {
+                background-color: #2e59d9;
+                border-color: #2653d4;
+            }
+
+        .input-group-text {
+            background-color: #f1f1f1;
+            border-radius: 0 0.375rem 0.375rem 0;
+        }
+
+        .form-control {
+            border-radius: 0.375rem;
+        }
+
+        span.field-validation-error {
+            color: red;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <div class="card">
+            <div class="login-logo text-center mb-3">
+                <a href="~/"><i class="fas fa-paw me-2"></i><b>PetCare</b> Admin</a>
+            </div>
+            <p class="login-box-msg text-center">Đăng nhập để quản lý hệ thống</p>
+
+            <form asp-action="Index" method="post">
+                <div class="input-group mb-3">
+                    <input type="email" class="form-control" asp-for="Email" placeholder="Email" value="vuthao@gmail.com">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                    </div>
+                </div>
+                <span asp-validation-for="Email" class="field-validation-error"></span>
+
+                <div class="input-group mb-3">
+                    <input type="password" class="form-control" asp-for="Password" placeholder="Mật khẩu">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                </div>
+                <span asp-validation-for="Password" class="field-validation-error"></span>
+
+                <div class="row">
+                    <div class="col-12 mt-2">
+                        <button type="submit" class="btn btn-primary btn-block">Đăng nhập</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/plugins/jquery/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
+</body>
+</html>

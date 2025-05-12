@@ -1,0 +1,47 @@
+﻿@model Pet_Care.Models.Service
+
+@{
+    ViewData["Title"] = "Service Details";
+    Layout = "~/Areas/AdminQL/Views/Shared/_Admins.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-lg">
+        <div class="card-header bg-info text-white text-center">
+            <h2>Chi tiết dịch vụ</h2>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.ServiceName)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.ServiceName)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Image)</dt>
+                <dd class="col-sm-9">
+                    <img src="@Model.Image" alt="Image" class="img-thumbnail" style="max-width: 150px; max-height: 150px;">
+                </dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Description)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Description)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Price)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Price)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.OldPrice)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.OldPrice)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Status)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Status)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.CreatedDate)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.CreatedDate)</dd>
+
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.CategoryService)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.CategoryService.CategoryServiceId)</dd>
+            </dl>
+        </div>
+        <div class="card-footer text-center">
+            <a asp-action="Edit" asp-route-id="@Model?.ServiceId" class="btn btn-warning px-4">Sửa</a>
+            <a asp-action="Index" class="btn btn-secondary px-4">Quay lại</a>
+        </div>
+    </div>
+</div>
