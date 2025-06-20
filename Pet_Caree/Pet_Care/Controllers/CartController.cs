@@ -187,6 +187,7 @@ public class CartController : Controller
 
     public IActionResult OrderSuccess()
     {
+        ViewBag.ServiceCategories = _context.CategoryServices.ToList();
         return View();
     }
 

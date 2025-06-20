@@ -19,6 +19,7 @@ namespace Pet_Care.Controllers
         // GET: Đăng ký
         public IActionResult Index()
         {
+            ViewBag.ServiceCategories = _context.CategoryServices.ToList();
             ViewBag.CategoryId = new SelectList(_context.Categories.ToList(), "CategoryId", "Type");
             return View();
         }

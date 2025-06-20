@@ -17,7 +17,9 @@ public partial class Service
 
     [Display(Name = "Giá dịch vụ")]
     [DataType(DataType.Currency)]
+    [DisplayFormat(DataFormatString = "{0:#,0}", ApplyFormatInEditMode = true)]
     public double Price { get; set; }
+
 
     [Display(Name = "Trạng thái")]
     public string? Status { get; set; }
@@ -30,6 +32,7 @@ public partial class Service
 
     [Display(Name = "Giá cũ")]
     [DataType(DataType.Currency)]
+    [DisplayFormat(DataFormatString = "{0:#,0}", ApplyFormatInEditMode = true)]
     public double? OldPrice { get; set; }
 
     public virtual CategoryService? CategoryService { get; set; }

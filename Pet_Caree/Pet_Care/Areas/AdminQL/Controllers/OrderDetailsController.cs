@@ -62,10 +62,10 @@ namespace Pet_Care.Areas.AdminQL.Controllers
         // GET: AdminQL/OrderDetails/Create
         public IActionResult Create()
         {
-            ViewData["AppointmentId"] = new SelectList(_context.Appointments, "AppointmentId", "AppointmentId");
+            ViewData["AppointmentId"] = new SelectList(_context.Appointments, "AppointmentId", "AppointmentDate");
             ViewData["OrderId"] = new SelectList(_context.Orders, "OrderId", "OrderId");
-            ViewData["PetId"] = new SelectList(_context.Pets, "PetId", "PetId");
-            ViewData["ServiceId"] = new SelectList(_context.Services, "ServiceId", "ServiceId");
+            ViewData["PetId"] = new SelectList(_context.Pets, "PetId", "PetName");
+            ViewData["ServiceId"] = new SelectList(_context.Services, "ServiceId", "ServiceName");
             return View();
         }
 
@@ -102,10 +102,10 @@ namespace Pet_Care.Areas.AdminQL.Controllers
             {
                 return NotFound();
             }
-            ViewData["AppointmentId"] = new SelectList(_context.Appointments, "AppointmentId", "AppointmentId", orderDetail.AppointmentId);
+            ViewData["AppointmentId"] = new SelectList(_context.Appointments, "AppointmentId", "AppointmentDate", orderDetail.AppointmentId);
             ViewData["OrderId"] = new SelectList(_context.Orders, "OrderId", "OrderId", orderDetail.OrderId);
-            ViewData["PetId"] = new SelectList(_context.Pets, "PetId", "PetId", orderDetail.PetId);
-            ViewData["ServiceId"] = new SelectList(_context.Services, "ServiceId", "ServiceId", orderDetail.ServiceId);
+            ViewData["PetId"] = new SelectList(_context.Pets, "PetId", "PetName", orderDetail.PetId);
+            ViewData["ServiceId"] = new SelectList(_context.Services, "ServiceId", "ServiceName", orderDetail.ServiceId);
             return View(orderDetail);
         }
 

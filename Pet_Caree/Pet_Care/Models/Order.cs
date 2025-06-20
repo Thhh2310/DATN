@@ -22,6 +22,8 @@ public partial class Order
     public string? Status { get; set; }
 
     [Display(Name = "Tổng tiền")]
+    [DataType(DataType.Currency)]
+    [DisplayFormat(DataFormatString = "{0:#,0}", ApplyFormatInEditMode = true)]
     public double? TotalAmount { get; set; }
 
     [Display(Name = "Ghi chú")]

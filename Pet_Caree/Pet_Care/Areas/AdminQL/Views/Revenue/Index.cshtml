@@ -1,0 +1,186 @@
+﻿@* @model Pet_Care.Areas.AdminQL.Models.RevenueSummaryViewModel
+@{
+    ViewData["Title"] = "Tổng hợp doanh thu";
+    Layout = "~/Areas/AdminQL/Views/Shared/_Admins.cshtml";
+}
+
+<h2 class="text-center text-primary my-4">@ViewData["Title"]</h2>
+
+@functions {
+    void RenderTable(string title, List<Pet_Care.Areas.AdminQL.Models.RevenueReport> data)
+    {
+        <div class="card shadow-sm mb-4">
+            <div class="card-header bg-primary text-white rounded-top">
+                <h5 class="mb-0"><i class="fas fa-chart-bar me-2"></i>@title</h5>
+            </div>
+            <div class="card-body p-0">
+                <table class="table table-hover mb-0">
+                    <thead class="table-light">
+                        <tr class="text-center">
+                            <th style="width: 50%">Thời gian</th>
+                            <th style="width: 50%">Tổng doanh thu (VNĐ)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in data)
+                        {
+                            <tr>
+                                <td class="ps-4">@item.Label</td>
+                                <td class="text-end pe-4 text-success fw-bold">@item.TotalRevenue.ToString("#,##0")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            @{RenderTable("Doanh thu theo ngày", Model.Daily);}
+        </div>
+        <div class="col-md-6">
+            @{RenderTable("Doanh thu theo tháng", Model.Monthly);}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            @{RenderTable("Doanh thu theo quý", Model.Quarterly);}
+        </div>
+        <div class="col-md-6">
+            @{RenderTable("Doanh thu theo năm", Model.Yearly);}
+        </div>
+    </div>
+</div>
+ *@
+
+ @model Pet_Care.Areas.AdminQL.Models.RevenueSummaryViewModel
+@{
+    ViewData["Title"] = "Tổng hợp doanh thu";
+    Layout = "~/Areas/AdminQL/Views/Shared/_Admins.cshtml";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+<h2 class="text-center text-primary my-4">
+    <i class="fas fa-chart-area"></i> @ViewData["Title"]
+</h2>
+
+<!-- Thanh lọc -->
+<div class="row mb-4">
+@*     <div class="col-md-3"><input type="date" id="fromDate" class="form-control"></div>
+    <div class="col-md-3"><input type="date" id="toDate" class="form-control"></div> *@
+    <div class="col-md-2">
+        <select id="interval" class="form-select">
+            <option value="day">Theo ngày</option>
+            <option value="month">Theo tháng</option>
+            <option value="quarter">Theo quý</option>
+            <option value="year">Theo năm</option>
+        </select>
+    </div>
+    <div class="col-md-2"><button id="btnFilter" class="btn btn-primary"><i class="fas fa-filter"></i> Lọc</button></div>
+</div>
+
+<!-- Biểu đồ -->
+<div class="card mb-5 shadow-sm">
+    <div class="card-body">
+        <canvas id="revenueChart" height="120"></canvas>
+    </div>
+</div>
+
+@functions {
+    void RenderTable(string title, List<Pet_Care.Areas.AdminQL.Models.RevenueReport> data)
+    {
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <h6 class="mb-0"><i class="fas fa-dollar-sign me-2"></i>@title</h6>
+            </div>
+            <div class="card-body p-0">
+                <table class="table table-hover mb-0">
+                    <thead class="table-light">
+                        <tr class="text-center">
+                            <th style="width:50%">Thời gian</th>
+                            <th style="width:50%">Tổng doanh thu (VNĐ)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in data)
+                        {
+                            <tr>
+                                <td class="ps-3">@item.Label</td>
+                                <td class="text-end pe-3 text-success fw-semibold">@item.TotalRevenue.ToString("#,##0")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">@{RenderTable("Doanh thu theo ngày", Model.Daily);}</div>
+        <div class="col-md-6">@{RenderTable("Doanh thu theo tháng", Model.Monthly);}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">@{RenderTable("Doanh thu theo quý", Model.Quarterly);}</div>
+        <div class="col-md-6">@{RenderTable("Doanh thu theo năm", Model.Yearly);}</div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    // Convert .NET List to JS
+    const dataLists = {
+        day: @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.Daily)),
+        month: @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.Monthly)),
+        quarter: @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.Quarterly)),
+        year: @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.Yearly))
+    };
+
+    let currentInterval = 'day';
+    let chart = null;
+
+    function drawChart(interval) {
+        const raw = dataLists[interval];
+        const labels = raw.map(x => x.Label);
+        const values = raw.map(x => x.TotalRevenue);
+
+        const ctx = document.getElementById('revenueChart').getContext('2d');
+        if (chart) chart.destroy();
+
+        chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels,
+                datasets: [{
+                    label: 'Doanh thu',
+                    data: values,
+                    backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1,
+                }]
+            },
+            options: {
+                scales: {
+                    x: { ticks: { autoSkip: false }, title: { display: true, text: 'Thời gian' } },
+                    y: { beginAtZero: true, title: { display: true, text: 'Tổng doanh thu (VNĐ)' } }
+                },
+                plugins: { legend: { display: false } }
+            }
+        });
+    }
+
+    // Khi load trang
+    window.onload = () => drawChart('day');
+
+    // Sự kiện lọc
+    document.getElementById('btnFilter').addEventListener('click', () => {
+        const interval = document.getElementById('interval').value;
+        currentInterval = interval;
+        drawChart(interval);
+    });
+</script>

@@ -61,9 +61,9 @@ namespace Pet_Care.Areas.AdminQL.Controllers
         // GET: AdminQL/Orders/Create
         public IActionResult Create()
         {
-            ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "CustomerId");
-            ViewData["PaymentMethodId"] = new SelectList(_context.PaymentMethods, "PaymentMethodId", "PaymentMethodId");
-            ViewData["StaffId"] = new SelectList(_context.Staffs, "StaffId", "StaffId");
+            ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "FullName");
+            ViewData["PaymentMethodId"] = new SelectList(_context.PaymentMethods, "PaymentMethodId", "MethodName");
+            ViewData["StaffId"] = new SelectList(_context.Staffs, "StaffId", "FullName");
             return View();
         }
 
@@ -99,9 +99,9 @@ namespace Pet_Care.Areas.AdminQL.Controllers
             {
                 return NotFound();
             }
-            ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "CustomerId", order.CustomerId);
-            ViewData["PaymentMethodId"] = new SelectList(_context.PaymentMethods, "PaymentMethodId", "PaymentMethodId", order.PaymentMethodId);
-            ViewData["StaffId"] = new SelectList(_context.Staffs, "StaffId", "StaffId", order.StaffId);
+            ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "FullName", order.CustomerId);
+            ViewData["PaymentMethodId"] = new SelectList(_context.PaymentMethods, "PaymentMethodId", "MethodName", order.PaymentMethodId);
+            ViewData["StaffId"] = new SelectList(_context.Staffs, "StaffId", "FullName", order.StaffId);
             return View(order);
         }
 

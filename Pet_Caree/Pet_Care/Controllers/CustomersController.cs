@@ -27,6 +27,8 @@ namespace Pet_Care.Controllers
         // GET: Customers/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            ViewBag.ServiceCategories = _context.CategoryServices.ToList();
+
             if (id == null)
             {
                 return NotFound();
@@ -69,6 +71,8 @@ namespace Pet_Care.Controllers
         // GET: Customers/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            ViewBag.ServiceCategories = _context.CategoryServices.ToList();
+
             if (id == null)
             {
                 return NotFound();
@@ -120,6 +124,7 @@ namespace Pet_Care.Controllers
         // GET: Customers/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+
             if (id == null)
             {
                 return NotFound();

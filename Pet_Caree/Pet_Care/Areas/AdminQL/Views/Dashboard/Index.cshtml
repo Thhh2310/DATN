@@ -1,8 +1,210 @@
-﻿
-@{
-    ViewData["Title"] = "Index";
+﻿@{
+    ViewData["Title"] = "Thống kê";
     Layout = "~/Areas/AdminQL/Views/Shared/_Admins.cshtml";
 }
 
-<h1>Trang chủ Dashboard</h1>
+<!-- Content Header (Page header) -->
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Báo cáo thống kê</h1>
+            </div>
+        </div>
+    </div>
+</div>
 
+<!-- Small boxes (Stat box) -->
+<div class="row">
+    <div class="col-lg-2 col-4">
+        <div class="small-box bg-primary">
+            <div class="inner">
+                <h3>@Model.KhachHang</h3>
+                <p>Khách hàng</p>
+            </div>
+            <div class="icon">
+                <i class="fas fa-users"></i>
+            </div>
+            <a href="#" class="small-box-footer">Xem thêm <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+
+    <div class="col-lg-2 col-4">
+        <div class="small-box bg-success">
+            <div class="inner">
+                <h3>@Model.NhanVien</h3>
+                <p>Nhân viên</p>
+            </div>
+            <div class="icon">
+                <i class="fas fa-user-tie"></i>
+            </div>
+            <a href="#" class="small-box-footer">Xem thêm <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+
+    <div class="col-lg-2 col-4">
+        <div class="small-box bg-warning">
+            <div class="inner">
+                <h3>@Model.ThuCung</h3>
+                <p>Thú cưng</p>
+            </div>
+            <div class="icon">
+                <i class="fas fa-dog"></i>
+            </div>
+            <a href="#" class="small-box-footer">Xem thêm <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+
+    <div class="col-lg-2 col-4">
+        <div class="small-box bg-info">
+            <div class="inner">
+                <h3>@Model.DichVu</h3>
+                <p>Dịch vụ</p>
+            </div>
+            <div class="icon">
+                <i class="fas fa-concierge-bell"></i>
+            </div>
+            <a href="#" class="small-box-footer">Xem thêm <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+
+    <div class="col-lg-2 col-4">
+        <!-- small box -->
+        <div class="small-box bg-danger">
+            <div class="inner">
+                <h3>@Model.DonHang</h3>
+                <p>Đơn hàng</p>
+            </div>
+            <div class="icon">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+            <a href="#" class="small-box-footer">Xem thêm <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+
+    <div class="col-lg-2 col-4">
+        <!-- small box -->
+        <div class="small-box bg-secondary">
+            <div class="inner">
+                <h3>@Model.LichHen</h3>
+                <p>Lịch hẹn</p>
+            </div>
+            <div class="icon">
+                <i class="fas fa-calendar-check"></i>
+            </div>
+            <a href="#" class="small-box-footer">Xem thêm <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Dòng 1: Biểu đồ Cột & Biểu đồ Đường -->
+<div class="row mt-5">
+    <div class="col-md-6">
+        <canvas id="barChart" style="height: 350px;"></canvas>
+    </div>
+    <div class="col-md-6">
+        <canvas id="lineChart" style="height: 350px;"></canvas>
+    </div>
+</div>
+
+<!-- Dòng 2: Biểu đồ Tròn -->
+<div class="row mt-5 justify-content-center">
+    <div class="col-md-6">
+        <canvas id="pieChart" style="height: 350px;"></canvas>
+    </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const khachHang = @Model.KhachHang;
+    const nhanVien = @Model.NhanVien;
+    const thuCung = @Model.ThuCung;
+    const dichVu = @Model.DichVu;
+    const donHang = @Model.DonHang;
+    const lichHen = @Model.LichHen;
+
+    const labels = ['Khách hàng', 'Nhân viên', 'Thú cưng', 'Dịch vụ', 'Đơn hàng', 'Lịch hẹn'];
+    const dataSet = [khachHang, nhanVien, thuCung, dichVu, donHang, lichHen];
+
+    const chartOptions = {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            title: {
+                display: true,
+                font: {
+                    family: "'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif",
+                    size: 18,
+                    weight: 'bold'
+                }
+            }
+        },
+        scales: {
+            y: { beginAtZero: true }
+        }
+    };
+
+
+    // Biểu đồ Cột
+    new Chart(document.getElementById('barChart').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Số lượng',
+                data: dataSet,
+                backgroundColor: [
+                    '#007bff', '#28a745', '#ffc107', '#17a2b8', '#dc3545', '#6c757d'
+                ]
+            }]
+        },
+        options: {
+            ...chartOptions,
+            plugins: { ...chartOptions.plugins, title: { ...chartOptions.plugins.title, text: 'Biểu đồ Cột - Thống kê tổng quan' } }
+        }
+    });
+
+    // Biểu đồ Đường
+    new Chart(document.getElementById('lineChart').getContext('2d'), {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Số lượng',
+                data: dataSet,
+                borderColor: '#007bff',
+                backgroundColor: 'rgba(0,123,255,0.1)',
+                fill: true,
+                tension: 0.3
+            }]
+        },
+        options: {
+            ...chartOptions,
+            plugins: { ...chartOptions.plugins, title: { ...chartOptions.plugins.title, text: 'Biểu đồ Đường - Xu hướng' } }
+        }
+    });
+
+    // Biểu đồ Tròn
+    new Chart(document.getElementById('pieChart').getContext('2d'), {
+        type: 'pie',
+        data: {
+            labels: labels,
+            datasets: [{
+                data: dataSet,
+                backgroundColor: ['#007bff', '#28a745', '#ffc107', '#17a2b8', '#dc3545', '#6c757d']
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Biểu đồ Tròn - Tỉ lệ số liệu'
+                }
+            }
+        }
+    });
+</script>

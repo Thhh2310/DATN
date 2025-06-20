@@ -60,8 +60,8 @@ namespace Pet_Care.Areas.AdminQL.Controllers
         // GET: AdminQL/Pets/Create
         public IActionResult Create()
         {
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId");
-            ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "CustomerId");
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "Type");
+            ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "FullName");
             return View();
         }
 
@@ -96,8 +96,8 @@ namespace Pet_Care.Areas.AdminQL.Controllers
             {
                 return NotFound();
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", pet.CategoryId);
-            ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "CustomerId", pet.CustomerId);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "Type", pet.CategoryId);
+            ViewData["CustomerId"] = new SelectList(_context.Customers, "CustomerId", "FullName", pet.CustomerId);
             return View(pet);
         }
 

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Pet_Care.Areas.AdminQL.Models;
 using Pet_Care.Models;
 
 namespace Pet_Care
@@ -11,6 +12,8 @@ namespace Pet_Care
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddScoped<DashboardServices>();
 
             builder.Services.AddDbContext<PetCareContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("AppConnectionString")));

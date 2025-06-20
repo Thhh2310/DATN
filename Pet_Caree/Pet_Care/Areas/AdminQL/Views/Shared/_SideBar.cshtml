@@ -3,17 +3,17 @@
 
 ﻿<aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="/home/index" class="brand-link">
-        <img src="~/dist/img/logo_DevXuongMoc.png" alt="DevXuongMoc Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+    @* <a href="~/home/index" class="brand-link">
+        <img src="~/dist/img/logopet.jpg" alt="Pet Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
         <span class="brand-text font-weight-light">Pet_Care</span>
-    </a>
+    </a> *@
 
     <!-- Sidebar -->
     <div class="sidebar">
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
-                <img src="~/dist/img/nth.jpg" class="img-circle elevation-2" alt="image user" />
+                <img src="~/dist/img/nth1.jpg" class="img-circle elevation-2" alt="image user" />
             </div>
             <div class="info">
                 @{
@@ -24,7 +24,7 @@
                     }
                     else
                     {
-                        <a href="#" class="d-block">Pet_Care</a>
+                        <a asp-action="Index" asp-controller="Login" class="d-block">Pet_Care</a>
                     }
                 }
             </div>
@@ -32,15 +32,15 @@
         <!-- Sidebar Menu -->
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                @* <li class="nav-item">
+                <li class="nav-item">
                     <a href="~/adminql" class="nav-link">
                         <i class="nav-icon fas fa-house-user"></i>
                         <p>
-                            Trang chủ
+                            Thống kê
                         </p>
                     </a>
-                </li> *@
-                <li class="nav-item">
+                </li>
+                <li class="nav-item" id="menu-taikhoan">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-user-cog"></i>
                         <p>
@@ -50,19 +50,19 @@
                     </a>
                     <ul class="nav nav-treeview pl-4">
                         <li class="nav-item">
-                            <a href="/adminql/admins" class="nav-link">
+                            <a href="/adminql/admins" class="nav-link" id="submenu-admin">
                                 <i class="fas fa-user-shield nav-icon"></i>
                                 <p>Quản lý admin</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/adminql/staffs" class="nav-link">
+                            <a href="/adminql/staffs" class="nav-link" id="submenu-staff">
                                 <i class="fas fa-user-tie nav-icon"></i>
                                 <p>Quản lý nhân viên</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/adminql/customers" class="nav-link">
+                            <a href="/adminql/customers" class="nav-link" id="submenu-customer">
                                 <i class="fas fa-users nav-icon"></i>
                                 <p>Quản lý khách hàng</p>
                             </a>
@@ -71,7 +71,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="#" class="nav-link" id="menu-thucung">
                         <i class="nav-icon fas fa-paw"></i>
                         <p>
                             Quản lý thú cưng
@@ -80,13 +80,13 @@
                     </a>
                     <ul class="nav nav-treeview pl-4">
                         <li class="nav-item">
-                            <a href="/adminql/pets" class="nav-link">
+                            <a href="/adminql/pets" class="nav-link" id="submenu-pet">
                                 <i class="fas fa-dog nav-icon"></i>
                                 <p>Thú cưng</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/adminql/categories" class="nav-link">
+                            <a href="/adminql/categories" class="nav-link" id="submenu-category">
                                 <i class="fas fa-folder-open nav-icon"></i>
                                 <p>Danh mục thú cưng</p>
                             </a>
@@ -95,7 +95,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="#" class="nav-link" id="menu-dichvu">
                         <i class="nav-icon fas fa-concierge-bell"></i>
                         <p>
                             Quản lý dịch vụ
@@ -104,19 +104,19 @@
                     </a>
                     <ul class="nav nav-treeview pl-4">
                         <li class="nav-item">
-                            <a href="/adminql/services" class="nav-link">
+                            <a href="/adminql/services" class="nav-link" id="submenu-service">
                                 <i class="fas fa-list-alt nav-icon"></i>
                                 <p>Dịch vụ</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/adminql/appointments" class="nav-link">
+                            <a href="/adminql/appointments" class="nav-link" id="submenu-appointment">
                                 <i class="fas fa-calendar-check nav-icon"></i>
                                 <p>Lịch hẹn</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/adminql/categoryservices" class="nav-link">
+                            <a href="/adminql/categoryservices" class="nav-link" id="submenu-cateservice">
                                 <i class="fas fa-th-list nav-icon"></i>
                                 <p>Danh mục dịch vụ</p>
                             </a>
@@ -125,7 +125,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="#" class="nav-link" id="menu-donhang">
                         <i class="nav-icon fas fa-shopping-cart"></i>
                         <p>
                             Quản lý đơn hàng
@@ -134,13 +134,13 @@
                     </a>
                     <ul class="nav nav-treeview pl-4">
                         <li class="nav-item">
-                            <a href="/adminql/orders" class="nav-link">
+                            <a href="/adminql/orders" class="nav-link" id="submenu-order">
                                 <i class="fas fa-file-invoice nav-icon"></i>
                                 <p>Đơn hàng</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/adminql/orderdetails" class="nav-link">
+                            <a href="/adminql/orderdetails" class="nav-link" id="submenu-orderdetails">
                                 <i class="fas fa-receipt nav-icon"></i>
                                 <p>Chi tiết đơn hàng</p>
                             </a>
@@ -190,29 +190,38 @@
                     </ul>
                 </li> *@
 
+                <li class="nav-item">
+                    <a href="/adminql/revenue" class="nav-link">
+                        <i class="nav-icon fas fa-house-user"></i>
+                        <p>
+                            Doanh thu tổng hợp
+                        </p>
+                    </a>
+                </li>
+
             </ul>
         </nav>
         <!-- /.sidebar-menu -->
     </div>
     <!-- /.sidebar -->
 </aside>
-
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-        // Lấy giá trị menu đang mở từ LocalStorage
-        let activeMenu = localStorage.getItem("activeMenu");
-        let activeSubmenu = localStorage.getItem("activeSubmenu");
+        let currentPath = window.location.pathname; // Lấy đường dẫn trang hiện tại
 
-        // Nếu có menu đang mở, giữ nguyên trạng thái mở rộng
-        if (activeMenu) {
-            document.getElementById(activeMenu)?.classList.add("menu-open"); // Mở rộng menu cha
-            document.getElementById(activeMenu)?.querySelector(".nav-link")?.classList.add("active"); // Đánh dấu menu cha
-        }
-        if (activeSubmenu) {
-            document.getElementById(activeSubmenu)?.classList.add("active"); // Đánh dấu menu con
+        let activeLink = document.querySelector(`.nav-link[href='${currentPath}']`);
+        if (activeLink) {
+            activeLink.classList.add("active"); // Đánh dấu menu con đang mở
+
+            let parentMenu = activeLink.closest(".nav-treeview");
+            if (parentMenu) {
+                let mainMenu = parentMenu.closest(".nav-item");
+                mainMenu?.classList.add("menu-open"); // Mở rộng menu cha
+                mainMenu?.querySelector(".nav-link")?.classList.add("active"); // Đánh dấu menu cha
+            }
         }
 
-        // Lắng nghe sự kiện click vào menu con
+        // Lắng nghe sự kiện click vào menu con để lưu trạng thái
         document.querySelectorAll(".nav-treeview .nav-link").forEach(item => {
             item.addEventListener("click", function () {
                 let parentMenu = this.closest(".nav-item").parentElement.closest(".nav-item");
@@ -225,3 +234,4 @@
         });
     });
 </script>
+

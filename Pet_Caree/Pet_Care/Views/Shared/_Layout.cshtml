@@ -32,7 +32,19 @@
     <link href="~/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="~/css/style.css" rel="stylesheet">
+    <link href="~/css/style.css?v2" rel="stylesheet">
+    <style>
+        .custom-fixed-navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1030;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -59,7 +71,7 @@
         </div>
         <!-- Topbar End -->
         <!-- Navbar Start -->
-        <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light custom-fixed-navbar px-4 px-lg-5 ">
             <a href="index.html" class="navbar-brand d-flex align-items-center">
                 <h1 class="m-0">H2-Store</h1>
             </a>
@@ -130,7 +142,7 @@
     </header>
 
     <div>
-        <main role="main" class="pb-3">
+        <main role="main" class="pb-3" style="margin-top: 55px">
             @RenderBody()
         </main>
     </div>

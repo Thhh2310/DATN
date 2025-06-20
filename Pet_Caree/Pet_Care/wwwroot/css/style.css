@@ -185,18 +185,19 @@
 }
 
 .page-header {
-    background: url(../img/imgpetcare/banner2.jpg);
+    background: url(../img/imgpetcare/banner6.jpg);
     background-size: cover;
+    height: 500px;
 }
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
-    color: var(--light);
+    color: var(--dark);
 }
 
 .page-header .breadcrumb-item,
 .page-header .breadcrumb-item a {
     font-size: 18px;
-    color: var(--light);
+    color: var(--dark);
 }
 
 

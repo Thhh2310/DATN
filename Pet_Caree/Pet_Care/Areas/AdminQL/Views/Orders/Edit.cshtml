@@ -8,7 +8,7 @@
 <div class="container mt-4">
     <div class="card shadow-lg">
         <div class="card-header bg-primary text-white text-center">
-            <h2>Chỉnh sửua đơn hàng</h2>
+            <h2>Chỉnh sửa đơn hàng</h2>
         </div>
         <div class="card-body">
             <form asp-action="Edit">
@@ -41,7 +41,12 @@
 
                 <div class="mb-3">
                     <label asp-for="Status" class="form-label fw-bold"></label>
-                    <input asp-for="Status" class="form-control" />
+                    <select asp-for="Status" class="form-control">
+                        <option value="Chờ xử lý">Chờ xử lý</option>
+                        <option value="Đang thực hiện">Đang thực hiện</option>
+                        <option value="Hoàn thành">Hoàn thành</option>
+                        <option value="Huỷ">Huỷ</option>
+                    </select>
                     <span asp-validation-for="Status" class="text-danger"></span>
                 </div>
 

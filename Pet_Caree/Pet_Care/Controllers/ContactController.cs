@@ -21,31 +21,17 @@ namespace Pet_Care.Controllers
         // POST: Contact/SubmitContact
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> SubmitContact(string Title, string Email, string Phone, string Address, string Content)
+        public async Task<IActionResult> SubmitContact(Contact contact)
         {
+            ViewBag.ServiceCategories = _context.CategoryServices.ToList();
+
             if (ModelState.IsValid)
             {
-                // Tạo một bản ghi Contact mới
-                var contact = new Contact
-                {
-                    Email = Email,
-                    Phone = Phone,
-                    Address = Address,
-                    Content = $"Tên: {Title} - Nội dung: {Content}",
-                    CreatedDate = DateOnly.FromDateTime(DateTime.Now)
-                };
-
-                // Thêm vào cơ sở dữ liệu
-                _context.Contacts.Add(contact);
+               _context.Contacts.Add(contact);
                 await _context.SaveChangesAsync();
-
-                // Thêm thông báo thành công vào TempData
-                TempData["SuccessMessage"] = "Yêu cầu liên hệ của bạn đã được gửi thành công! Chúng tôi sẽ liên hệ với bạn sớm nhất.";
-
-                // Chuyển hướng về trang Index
-                return RedirectToAction(nameof(Index));
+                ViewBag.Message = "Cảm ơn đã liên hệ với chúng tôi. Hãy đợi thông báo nhé!!!";
             }
-            return View("Index");
+            return View("Index", contact);
         }
     }
 }

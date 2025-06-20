@@ -23,10 +23,12 @@ public partial class OrderDetail
 
     [Display(Name = "Đơn giá")]
     [DataType(DataType.Currency)]
+    [DisplayFormat(DataFormatString = "{0:#,0}", ApplyFormatInEditMode = true)]
     public double Price { get; set; }
 
     [Display(Name = "Thành tiền")]
     [DataType(DataType.Currency)]
+    [DisplayFormat(DataFormatString = "{0:#,0}", ApplyFormatInEditMode = true)]
     public double? TotalPrice { get; set; }
 
     public virtual Appointment? Appointment { get; set; }

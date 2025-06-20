@@ -16,6 +16,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="~/dist/css/adminlte.min.css">
 
 </head>
+
 <body>
 
     <section class="wrapper">
@@ -34,7 +35,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
             
             <!-- Main content -->
             <section class="content">
-                <div class="container-fluid">
+                <div class="container-fluid" id="main-content">
 
                     @RenderBody()
 
@@ -57,16 +58,10 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     </section>
     <!-- ./wrapper -->
 
-
-
-
-
-
-
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <!-- AdminLTE App -->
     <script src="~/dist/js/adminlte.js"></script>
@@ -75,5 +70,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
     <script src="~/dist/js/pages/dashboard.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
+
 </html>

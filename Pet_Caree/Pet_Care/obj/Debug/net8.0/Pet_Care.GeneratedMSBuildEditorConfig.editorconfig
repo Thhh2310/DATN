@@ -274,6 +274,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5RTFxWaWV3c1xQZXRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DATN/Pet_Caree/Pet_Care/Areas/AdminQL/Views/Revenue/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5RTFxWaWV3c1xSZXZlbnVlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DATN/Pet_Caree/Pet_Care/Areas/AdminQL/Views/Reviews/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5RTFxWaWV3c1xSZXZpZXdzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

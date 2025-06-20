@@ -24,14 +24,14 @@
                 <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Notes)</dt>
                 <dd class="col-sm-9">@Html.DisplayFor(model => model.Notes)</dd>
 
-                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Customer)</dt>
-                <dd class="col-sm-9">@Html.DisplayFor(model => model.Customer.CustomerId)</dd>
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.CustomerId)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Customer.FullName)</dd>
 
-                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.PaymentMethod)</dt>
-                <dd class="col-sm-9">@Html.DisplayFor(model => model.PaymentMethod.PaymentMethodId)</dd>
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.PaymentMethodId)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.PaymentMethod.MethodName)</dd>
 
-                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Staff)</dt>
-                <dd class="col-sm-9">@Html.DisplayFor(model => model.Staff.StaffId)</dd>
+                <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.StaffId)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Staff.FullName)</dd>
             </dl>
         </div>
         <div class="card-footer text-center">

@@ -213,8 +213,12 @@
       "PackagePath": "staticwebassets\\dist\\img\\logologin.png"
     },
     {
-      "Id": "D:\\DATN\\Pet_Caree\\Pet_Care\\wwwroot\\dist\\img\\nth.jpg",
-      "PackagePath": "staticwebassets\\dist\\img\\nth.jpg"
+      "Id": "D:\\DATN\\Pet_Caree\\Pet_Care\\wwwroot\\dist\\img\\logopet.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\logopet.jpg"
+    },
+    {
+      "Id": "D:\\DATN\\Pet_Caree\\Pet_Care\\wwwroot\\dist\\img\\nth1.jpg",
+      "PackagePath": "staticwebassets\\dist\\img\\nth1.jpg"
     },
     {
       "Id": "D:\\DATN\\Pet_Caree\\Pet_Care\\wwwroot\\dist\\img\\photo1.png",
@@ -371,6 +375,10 @@
     {
       "Id": "D:\\DATN\\Pet_Caree\\Pet_Care\\wwwroot\\images\\admin\\nth.jpg",
       "PackagePath": "staticwebassets\\images\\admin\\nth.jpg"
+    },
+    {
+      "Id": "D:\\DATN\\Pet_Caree\\Pet_Care\\wwwroot\\images\\admin\\nth111.jpg",
+      "PackagePath": "staticwebassets\\images\\admin\\nth111.jpg"
     },
     {
       "Id": "D:\\DATN\\Pet_Caree\\Pet_Care\\wwwroot\\images\\admin\\v.jpg",
@@ -1047,6 +1055,22 @@
     {
       "Id": "D:\\DATN\\Pet_Caree\\Pet_Care\\wwwroot\\img\\imgpetcare\\banner2.jpg",
       "PackagePath": "staticwebassets\\img\\imgpetcare\\banner2.jpg"
+    },
+    {
+      "Id": "D:\\DATN\\Pet_Caree\\Pet_Care\\wwwroot\\img\\imgpetcare\\banner3.jpg",
+      "PackagePath": "staticwebassets\\img\\imgpetcare\\banner3.jpg"
+    },
+    {
+      "Id": "D:\\DATN\\Pet_Caree\\Pet_Care\\wwwroot\\img\\imgpetcare\\banner4.jpg",
+      "PackagePath": "staticwebassets\\img\\imgpetcare\\banner4.jpg"
+    },
+    {
+      "Id": "D:\\DATN\\Pet_Caree\\Pet_Care\\wwwroot\\img\\imgpetcare\\banner5.jpg",
+      "PackagePath": "staticwebassets\\img\\imgpetcare\\banner5.jpg"
+    },
+    {
+      "Id": "D:\\DATN\\Pet_Caree\\Pet_Care\\wwwroot\\img\\imgpetcare\\banner6.jpg",
+      "PackagePath": "staticwebassets\\img\\imgpetcare\\banner6.jpg"
     },
     {
       "Id": "D:\\DATN\\Pet_Caree\\Pet_Care\\wwwroot\\img\\imgpetcare\\catmong.jpg",

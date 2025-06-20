@@ -59,7 +59,7 @@ namespace Pet_Care.Areas.AdminQL.Controllers
         // GET: AdminQL/Services/Create
         public IActionResult Create()
         {
-            ViewData["CategoryServiceId"] = new SelectList(_context.CategoryServices, "CategoryServiceId", "CategoryServiceId");
+            ViewData["CategoryServiceId"] = new SelectList(_context.CategoryServices, "CategoryServiceId", "CategoryServiceName");
             return View();
         }
 
@@ -93,7 +93,7 @@ namespace Pet_Care.Areas.AdminQL.Controllers
             {
                 return NotFound();
             }
-            ViewData["CategoryServiceId"] = new SelectList(_context.CategoryServices, "CategoryServiceId", "CategoryServiceId", service.CategoryServiceId);
+            ViewData["CategoryServiceId"] = new SelectList(_context.CategoryServices, "CategoryServiceId", "CategoryServiceName", service.CategoryServiceId);
             return View(service);
         }
 

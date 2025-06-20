@@ -23,6 +23,8 @@ namespace Pet_Care.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.ServiceCategories = _context.CategoryServices.ToList();
+
             // Kiểm tra session
             var userId = _httpContextAccessor.HttpContext.Session.GetString("Id");
 
